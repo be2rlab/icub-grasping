@@ -2,4 +2,4 @@
 
 
 at this point 
-[](web.gif)
+![](web.gif)
