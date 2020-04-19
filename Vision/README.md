@@ -12,5 +12,3 @@ the code for results shown is in web.pynb file
 
 
 
-
-![](simplescreenrecorder-2020-04-19_13.05.13.mkv)
