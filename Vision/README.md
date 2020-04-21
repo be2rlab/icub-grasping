@@ -12,3 +12,8 @@ the code for results shown is in web.pynb file
 
 
 
+
+
+first try of training to a new object (yet model already forgot everything else)
+
+![](rubik.gif)
