@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<sdf version="1.4">
+  <world name="default">
+
+    <!-- Light -->
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <!-- Ground Plane -->
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <!-- iCub -->
+    <model name="my_icub">
+    <include>
+        <uri>model://icub_fixed</uri>
+    </include>
+
+	<plugin name="icub_control" filename="libicub_plugin.so"/>
+	</model>
+   
+  </world>
+</sdf>
