@@ -1,0 +1,11 @@
+set(YARP_yarpcar_VERSION @PACKAGE_VERSION@)
+
+@PACKAGE_INIT@
+
+@PACKAGE_DEPENDENCIES@
+
+include("${CMAKE_CURRENT_LIST_DIR}/YARP_yarpcarTargets.cmake")
+
+
+
+@INCLUDED_CONTENT@

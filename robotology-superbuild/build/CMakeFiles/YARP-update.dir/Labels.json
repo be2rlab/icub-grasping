@@ -1,0 +1,28 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/icub-grasping/robotology-superbuild/build/CMakeFiles/YARP-update"
+		},
+		{
+			"file" : "/icub-grasping/robotology-superbuild/build/CMakeFiles/YARP-update.rule"
+		},
+		{
+			"file" : "/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/YCMStamp/YARP-update.rule"
+		},
+		{
+			"file" : "/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/YCMStamp/YARP-download.rule"
+		},
+		{
+			"file" : "/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/YCMStamp/YARP-mkdir.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"YARP"
+		],
+		"name" : "YARP-update"
+	}
+}

@@ -1,0 +1,286 @@
+Performing C++ SOURCE FILE Test CXX_HAS_WTAUTOLOGICAL_UNDEFINED_COMPARE failed with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_21136/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_21136.dir/build.make CMakeFiles/cmTC_21136.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_21136.dir/src.cxx.o
+/usr/bin/c++    -DCXX_HAS_WTAUTOLOGICAL_UNDEFINED_COMPARE   -Wtautological-undefined-compare -std=c++14 -o CMakeFiles/cmTC_21136.dir/src.cxx.o -c /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wtautological-undefined-compare'; did you mean '-Wtautological-compare'?
+CMakeFiles/cmTC_21136.dir/build.make:85: recipe for target 'CMakeFiles/cmTC_21136.dir/src.cxx.o' failed
+make[4]: *** [CMakeFiles/cmTC_21136.dir/src.cxx.o] Error 1
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Makefile:141: recipe for target 'cmTC_21136/fast' failed
+make[3]: *** [cmTC_21136/fast] Error 2
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_HAS_WMISMATCHED_NEW_DELETE failed with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_feb83/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_feb83.dir/build.make CMakeFiles/cmTC_feb83.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_feb83.dir/src.cxx.o
+/usr/bin/c++    -DCXX_HAS_WMISMATCHED_NEW_DELETE   -Wmismatched-new-delete -std=c++14 -o CMakeFiles/cmTC_feb83.dir/src.cxx.o -c /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wmismatched-new-delete'
+CMakeFiles/cmTC_feb83.dir/build.make:85: recipe for target 'CMakeFiles/cmTC_feb83.dir/src.cxx.o' failed
+make[4]: *** [CMakeFiles/cmTC_feb83.dir/src.cxx.o] Error 1
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Makefile:141: recipe for target 'cmTC_feb83/fast' failed
+make[3]: *** [cmTC_feb83/fast] Error 2
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_HAS_WPARENTHESES_EQUALITY failed with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_05ea6/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_05ea6.dir/build.make CMakeFiles/cmTC_05ea6.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_05ea6.dir/src.cxx.o
+/usr/bin/c++    -DCXX_HAS_WPARENTHESES_EQUALITY   -Wparentheses-equality -std=c++14 -o CMakeFiles/cmTC_05ea6.dir/src.cxx.o -c /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wparentheses-equality'; did you mean '-Wparentheses'?
+CMakeFiles/cmTC_05ea6.dir/build.make:85: recipe for target 'CMakeFiles/cmTC_05ea6.dir/src.cxx.o' failed
+make[4]: *** [CMakeFiles/cmTC_05ea6.dir/src.cxx.o] Error 1
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Makefile:141: recipe for target 'cmTC_05ea6/fast' failed
+make[3]: *** [cmTC_05ea6/fast] Error 2
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_HAS_WHEADER_GUARD failed with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f498d/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_f498d.dir/build.make CMakeFiles/cmTC_f498d.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f498d.dir/src.cxx.o
+/usr/bin/c++    -DCXX_HAS_WHEADER_GUARD   -Wheader-guard -std=c++14 -o CMakeFiles/cmTC_f498d.dir/src.cxx.o -c /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wheader-guard'
+CMakeFiles/cmTC_f498d.dir/build.make:85: recipe for target 'CMakeFiles/cmTC_f498d.dir/src.cxx.o' failed
+make[4]: *** [CMakeFiles/cmTC_f498d.dir/src.cxx.o] Error 1
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Makefile:141: recipe for target 'cmTC_f498d/fast' failed
+make[3]: *** [cmTC_f498d/fast] Error 2
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_HAS_WNEWLINE_EOF failed with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_80567/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_80567.dir/build.make CMakeFiles/cmTC_80567.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_80567.dir/src.cxx.o
+/usr/bin/c++    -DCXX_HAS_WNEWLINE_EOF   -Wnewline-eof -std=c++14 -o CMakeFiles/cmTC_80567.dir/src.cxx.o -c /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wnewline-eof'
+CMakeFiles/cmTC_80567.dir/build.make:85: recipe for target 'CMakeFiles/cmTC_80567.dir/src.cxx.o' failed
+make[4]: *** [CMakeFiles/cmTC_80567.dir/src.cxx.o] Error 1
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Makefile:141: recipe for target 'cmTC_80567/fast' failed
+make[3]: *** [cmTC_80567/fast] Error 2
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_HAS_WGCC_COMPAT failed with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e7f41/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_e7f41.dir/build.make CMakeFiles/cmTC_e7f41.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e7f41.dir/src.cxx.o
+/usr/bin/c++    -DCXX_HAS_WGCC_COMPAT   -Wgcc-compat -std=c++14 -o CMakeFiles/cmTC_e7f41.dir/src.cxx.o -c /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wgcc-compat'; did you mean '-Wc++-compat'?
+CMakeFiles/cmTC_e7f41.dir/build.make:85: recipe for target 'CMakeFiles/cmTC_e7f41.dir/src.cxx.o' failed
+make[4]: *** [CMakeFiles/cmTC_e7f41.dir/src.cxx.o] Error 1
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Makefile:141: recipe for target 'cmTC_e7f41/fast' failed
+make[3]: *** [cmTC_e7f41/fast] Error 2
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_HAS_WMICROSOFT_EXISTS failed with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3c404/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_3c404.dir/build.make CMakeFiles/cmTC_3c404.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3c404.dir/src.cxx.o
+/usr/bin/c++    -DCXX_HAS_WMICROSOFT_EXISTS   -Wmicrosoft-exists -std=c++14 -o CMakeFiles/cmTC_3c404.dir/src.cxx.o -c /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wmicrosoft-exists'
+CMakeFiles/cmTC_3c404.dir/build.make:85: recipe for target 'CMakeFiles/cmTC_3c404.dir/src.cxx.o' failed
+make[4]: *** [CMakeFiles/cmTC_3c404.dir/src.cxx.o] Error 1
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Makefile:141: recipe for target 'cmTC_3c404/fast' failed
+make[3]: *** [cmTC_3c404/fast] Error 2
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_HAS_WSTATIC_INLINE_EXPLICIT_INSTANTIATION failed with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_457ac/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_457ac.dir/build.make CMakeFiles/cmTC_457ac.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_457ac.dir/src.cxx.o
+/usr/bin/c++    -DCXX_HAS_WSTATIC_INLINE_EXPLICIT_INSTANTIATION   -Wstatic-inline-explicit-instantiation -std=c++14 -o CMakeFiles/cmTC_457ac.dir/src.cxx.o -c /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wstatic-inline-explicit-instantiation'
+CMakeFiles/cmTC_457ac.dir/build.make:85: recipe for target 'CMakeFiles/cmTC_457ac.dir/src.cxx.o' failed
+make[4]: *** [CMakeFiles/cmTC_457ac.dir/src.cxx.o] Error 1
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Makefile:141: recipe for target 'cmTC_457ac/fast' failed
+make[3]: *** [cmTC_457ac/fast] Error 2
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_HAS_WINCONSISTENT_MISSING_OVERRIDE failed with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_83b4d/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_83b4d.dir/build.make CMakeFiles/cmTC_83b4d.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_83b4d.dir/src.cxx.o
+/usr/bin/c++    -DCXX_HAS_WINCONSISTENT_MISSING_OVERRIDE   -Winconsistent-missing-override -std=c++14 -o CMakeFiles/cmTC_83b4d.dir/src.cxx.o -c /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Winconsistent-missing-override'; did you mean '-Wno-suggest-override'?
+CMakeFiles/cmTC_83b4d.dir/build.make:85: recipe for target 'CMakeFiles/cmTC_83b4d.dir/src.cxx.o' failed
+make[4]: *** [CMakeFiles/cmTC_83b4d.dir/src.cxx.o] Error 1
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Makefile:141: recipe for target 'cmTC_83b4d/fast' failed
+make[3]: *** [cmTC_83b4d/fast] Error 2
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_HAS_WNULL_CONVERSION failed with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1d4f7/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_1d4f7.dir/build.make CMakeFiles/cmTC_1d4f7.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1d4f7.dir/src.cxx.o
+/usr/bin/c++    -DCXX_HAS_WNULL_CONVERSION   -Wnull-conversion -std=c++14 -o CMakeFiles/cmTC_1d4f7.dir/src.cxx.o -c /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wnull-conversion'; did you mean '-Wno-conversion'?
+CMakeFiles/cmTC_1d4f7.dir/build.make:85: recipe for target 'CMakeFiles/cmTC_1d4f7.dir/src.cxx.o' failed
+make[4]: *** [CMakeFiles/cmTC_1d4f7.dir/src.cxx.o] Error 1
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Makefile:141: recipe for target 'cmTC_1d4f7/fast' failed
+make[3]: *** [cmTC_1d4f7/fast] Error 2
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Determining if files csignal exist failed with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e5b95/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_e5b95.dir/build.make CMakeFiles/cmTC_e5b95.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e5b95.dir/YARP_HAS_CSIGNAL.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_e5b95.dir/YARP_HAS_CSIGNAL.c.o   -c /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CheckIncludeFiles/YARP_HAS_CSIGNAL.c
+/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CheckIncludeFiles/YARP_HAS_CSIGNAL.c:2:10: fatal error: csignal: No such file or directory
+ #include <csignal>
+          ^~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_e5b95.dir/build.make:85: recipe for target 'CMakeFiles/cmTC_e5b95.dir/YARP_HAS_CSIGNAL.c.o' failed
+make[4]: *** [CMakeFiles/cmTC_e5b95.dir/YARP_HAS_CSIGNAL.c.o] Error 1
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Makefile:141: recipe for target 'cmTC_e5b95/fast' failed
+make[3]: *** [cmTC_e5b95/fast] Error 2
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+Source:
+/* */
+#include <csignal>
+
+
+int main(void){return 0;}
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_91c32/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_91c32.dir/build.make CMakeFiles/cmTC_91c32.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_91c32.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD -fPIE   -o CMakeFiles/cmTC_91c32.dir/src.c.o   -c /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_91c32
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_91c32.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_91c32.dir/src.c.o  -o cmTC_91c32 
+CMakeFiles/cmTC_91c32.dir/src.c.o: In function `main':
+src.c:(.text+0x3e): undefined reference to `pthread_create'
+src.c:(.text+0x4a): undefined reference to `pthread_detach'
+src.c:(.text+0x56): undefined reference to `pthread_cancel'
+src.c:(.text+0x67): undefined reference to `pthread_join'
+src.c:(.text+0x7b): undefined reference to `pthread_atfork'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_91c32.dir/build.make:106: recipe for target 'cmTC_91c32' failed
+make[4]: *** [cmTC_91c32] Error 1
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Makefile:141: recipe for target 'cmTC_91c32/fast' failed
+make[3]: *** [cmTC_91c32/fast] Error 2
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2cca4/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_2cca4.dir/build.make CMakeFiles/cmTC_2cca4.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2cca4.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -fPIE   -o CMakeFiles/cmTC_2cca4.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.17/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2cca4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2cca4.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_2cca4.dir/CheckFunctionExists.c.o  -o cmTC_2cca4  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_2cca4.dir/build.make:106: recipe for target 'cmTC_2cca4' failed
+make[4]: *** [cmTC_2cca4] Error 1
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Makefile:141: recipe for target 'cmTC_2cca4/fast' failed
+make[3]: *** [cmTC_2cca4/fast] Error 2
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+

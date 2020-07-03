@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/icub-grasping/robotology-superbuild/build/CMakeFiles/icub-gazebo"
+		},
+		{
+			"file" : "/icub-grasping/robotology-superbuild/build/CMakeFiles/icub-gazebo.rule"
+		},
+		{
+			"file" : "/icub-grasping/robotology-superbuild/build/CMakeFiles/icub-gazebo-complete.rule"
+		},
+		{
+			"file" : "/icub-grasping/robotology-superbuild/build/robotology/icub-gazebo/CMakeFiles/YCMStamp/icub-gazebo-install.rule"
+		},
+		{
+			"file" : "/icub-grasping/robotology-superbuild/build/robotology/icub-gazebo/CMakeFiles/YCMStamp/icub-gazebo-mkdir.rule"
+		},
+		{
+			"file" : "/icub-grasping/robotology-superbuild/build/robotology/icub-gazebo/CMakeFiles/YCMStamp/icub-gazebo-download.rule"
+		},
+		{
+			"file" : "/icub-grasping/robotology-superbuild/build/robotology/icub-gazebo/CMakeFiles/YCMStamp/icub-gazebo-patch.rule"
+		},
+		{
+			"file" : "/icub-grasping/robotology-superbuild/build/robotology/icub-gazebo/CMakeFiles/YCMStamp/icub-gazebo-configure.rule"
+		},
+		{
+			"file" : "/icub-grasping/robotology-superbuild/build/robotology/icub-gazebo/CMakeFiles/YCMStamp/icub-gazebo-build.rule"
+		},
+		{
+			"file" : "/icub-grasping/robotology-superbuild/build/robotology/icub-gazebo/CMakeFiles/YCMStamp/icub-gazebo-skip-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"icub-gazebo"
+		],
+		"name" : "icub-gazebo"
+	}
+}

@@ -1,0 +1,13 @@
+# Target labels
+ icub-gazebo
+# Source files and their labels
+/icub-grasping/robotology-superbuild/build/CMakeFiles/icub-gazebo
+/icub-grasping/robotology-superbuild/build/CMakeFiles/icub-gazebo.rule
+/icub-grasping/robotology-superbuild/build/CMakeFiles/icub-gazebo-complete.rule
+/icub-grasping/robotology-superbuild/build/robotology/icub-gazebo/CMakeFiles/YCMStamp/icub-gazebo-install.rule
+/icub-grasping/robotology-superbuild/build/robotology/icub-gazebo/CMakeFiles/YCMStamp/icub-gazebo-mkdir.rule
+/icub-grasping/robotology-superbuild/build/robotology/icub-gazebo/CMakeFiles/YCMStamp/icub-gazebo-download.rule
+/icub-grasping/robotology-superbuild/build/robotology/icub-gazebo/CMakeFiles/YCMStamp/icub-gazebo-patch.rule
+/icub-grasping/robotology-superbuild/build/robotology/icub-gazebo/CMakeFiles/YCMStamp/icub-gazebo-configure.rule
+/icub-grasping/robotology-superbuild/build/robotology/icub-gazebo/CMakeFiles/YCMStamp/icub-gazebo-build.rule
+/icub-grasping/robotology-superbuild/build/robotology/icub-gazebo/CMakeFiles/YCMStamp/icub-gazebo-skip-update.rule

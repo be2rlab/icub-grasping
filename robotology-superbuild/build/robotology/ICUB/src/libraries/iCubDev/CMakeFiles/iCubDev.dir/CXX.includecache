@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/icub-grasping/robotology-superbuild/robotology/ICUB/src/libraries/iCubDev/include/iCub/DebugInterfaces.h
+math.h
+-
+string.h
+-
+stdlib.h
+-
+stdio.h
+-
+
+/icub-grasping/robotology-superbuild/robotology/ICUB/src/libraries/iCubDev/src/DebugInterfaces.cpp
+iCub/DebugInterfaces.h
+-
+

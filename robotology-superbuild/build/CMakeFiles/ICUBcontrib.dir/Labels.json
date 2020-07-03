@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/icub-grasping/robotology-superbuild/build/CMakeFiles/ICUBcontrib"
+		},
+		{
+			"file" : "/icub-grasping/robotology-superbuild/build/CMakeFiles/ICUBcontrib.rule"
+		},
+		{
+			"file" : "/icub-grasping/robotology-superbuild/build/CMakeFiles/ICUBcontrib-complete.rule"
+		},
+		{
+			"file" : "/icub-grasping/robotology-superbuild/build/robotology/ICUBcontrib/CMakeFiles/YCMStamp/ICUBcontrib-install.rule"
+		},
+		{
+			"file" : "/icub-grasping/robotology-superbuild/build/robotology/ICUBcontrib/CMakeFiles/YCMStamp/ICUBcontrib-mkdir.rule"
+		},
+		{
+			"file" : "/icub-grasping/robotology-superbuild/build/robotology/ICUBcontrib/CMakeFiles/YCMStamp/ICUBcontrib-download.rule"
+		},
+		{
+			"file" : "/icub-grasping/robotology-superbuild/build/robotology/ICUBcontrib/CMakeFiles/YCMStamp/ICUBcontrib-patch.rule"
+		},
+		{
+			"file" : "/icub-grasping/robotology-superbuild/build/robotology/ICUBcontrib/CMakeFiles/YCMStamp/ICUBcontrib-configure.rule"
+		},
+		{
+			"file" : "/icub-grasping/robotology-superbuild/build/robotology/ICUBcontrib/CMakeFiles/YCMStamp/ICUBcontrib-build.rule"
+		},
+		{
+			"file" : "/icub-grasping/robotology-superbuild/build/robotology/ICUBcontrib/CMakeFiles/YCMStamp/ICUBcontrib-skip-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ICUBcontrib"
+		],
+		"name" : "ICUBcontrib"
+	}
+}

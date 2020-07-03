@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/YARP_rosmsg_gen_nav_msgs"
+  "nav_msgs/GetMap.h"
+  "nav_msgs/GetMapReply.h"
+  "nav_msgs/GetPlan.h"
+  "nav_msgs/GetPlanReply.h"
+  "nav_msgs/GridCells.h"
+  "nav_msgs/MapMetaData.h"
+  "nav_msgs/OccupancyGrid.h"
+  "nav_msgs/Odometry.h"
+  "nav_msgs/Path.h"
+  "nav_msgs/SetMap.h"
+  "nav_msgs/SetMapReply.h"
+  "nav_msgs_GetMap.h"
+  "nav_msgs_GetMapReply.h"
+  "nav_msgs_GetPlan.h"
+  "nav_msgs_GetPlanReply.h"
+  "nav_msgs_GridCells.h"
+  "nav_msgs_MapMetaData.h"
+  "nav_msgs_OccupancyGrid.h"
+  "nav_msgs_Odometry.h"
+  "nav_msgs_Path.h"
+  "nav_msgs_SetMap.h"
+  "nav_msgs_SetMapReply.h"
+  "yarp/rosmsg/nav_msgs/GetMap.h"
+  "yarp/rosmsg/nav_msgs/GetMapReply.h"
+  "yarp/rosmsg/nav_msgs/GetPlan.h"
+  "yarp/rosmsg/nav_msgs/GetPlanReply.h"
+  "yarp/rosmsg/nav_msgs/GridCells.h"
+  "yarp/rosmsg/nav_msgs/MapMetaData.h"
+  "yarp/rosmsg/nav_msgs/OccupancyGrid.h"
+  "yarp/rosmsg/nav_msgs/Odometry.h"
+  "yarp/rosmsg/nav_msgs/Path.h"
+  "yarp/rosmsg/nav_msgs/SetMap.h"
+  "yarp/rosmsg/nav_msgs/SetMapReply.h"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/YARP_rosmsg_gen_nav_msgs.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

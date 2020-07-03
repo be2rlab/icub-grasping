@@ -1,0 +1,8 @@
+# Target labels
+ icub-models
+# Source files and their labels
+/icub-grasping/robotology-superbuild/build/CMakeFiles/icub-models-update
+/icub-grasping/robotology-superbuild/build/CMakeFiles/icub-models-update.rule
+/icub-grasping/robotology-superbuild/build/robotology/icub-models/CMakeFiles/YCMStamp/icub-models-update.rule
+/icub-grasping/robotology-superbuild/build/robotology/icub-models/CMakeFiles/YCMStamp/icub-models-download.rule
+/icub-grasping/robotology-superbuild/build/robotology/icub-models/CMakeFiles/YCMStamp/icub-models-mkdir.rule

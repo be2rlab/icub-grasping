@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../lib/libYARP_profiler.a  CMakeFiles/YARP_profiler.dir/yarp/profiler/NetworkProfiler.cpp.o CMakeFiles/YARP_profiler.dir/yarp/profiler/Graph.cpp.o
+/usr/bin/ranlib ../../../lib/libYARP_profiler.a

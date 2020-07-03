@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/icub-grasping/robotology-superbuild/robotology/YARP/extern/md5/md5.c
+md5.h
+/icub-grasping/robotology-superbuild/robotology/YARP/extern/md5/md5.h
+string.h
+-
+
+/icub-grasping/robotology-superbuild/robotology/YARP/extern/md5/md5.h
+

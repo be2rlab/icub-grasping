@@ -1,0 +1,103 @@
+digraph robotology__superbuild {
+  graph [ranksep="1.5", nodesep="0.1" rankdir="BT"];
+
+  subgraph cluster_system {
+    label="system";
+    labelloc="b";
+    fontname="monospace:bold";
+    style="dashed";
+    color="dimgray";
+    bgcolor="gray94";
+    node [shape="pentagon", color="dimgray", fontsize="10"];
+
+    ACE
+    Eigen3
+    SQLite
+    gazebo
+    Python
+    Simbody
+    SDFormat
+    Boost
+    OGRE
+    ZeroMQ
+    CPPZMQ
+    Threads
+    Protobuf
+    IgnProtobuf
+    ignition__transport4
+    ignition__msgs1
+    ignition__math4
+    TINYXML2
+    DL
+    FreeImage
+    UUID
+    GTS
+    SWSCALE
+    AVDEVICE
+    AVFORMAT
+    AVCODEC
+    AVUTIL
+    ignition__cmake0
+    CURL
+    IgnCURL
+    jsoncpp
+    JSONCPP
+    YAML
+    PkgConfig
+    ZIP
+    ignition__common1
+    ignition__fuel_tools1
+    Git
+  }
+
+  subgraph cluster_found_on_system {
+    label="found";
+    labelloc="b";
+    fontname="monospace:bold";
+    style="dashed";
+    color="orangered1";
+    bgcolor="oldlace";
+    node [shape="note", color="orangered3"];
+
+    YCM [shape="note"]
+  }
+
+  subgraph cluster_core {
+    label="core";
+    labelloc="b";
+    fontname="monospace:bold";
+    color="dodgerblue1";
+    bgcolor = "aliceblue";
+    node [style="bold", shape="note", color="dodgerblue3"];
+
+    YARP [label="YARP"]
+    GazeboYARPPlugins [label="GazeboYARPPlugins"]
+  }
+
+  subgraph cluster_iCub {
+    label="iCub";
+    labelloc="b";
+    fontname="monospace:bold";
+    color="dodgerblue1";
+    bgcolor = "aliceblue";
+    node [style="bold", shape="note", color="dodgerblue3"];
+
+    ICUB [label="ICUB"]
+    ICUBcontrib [label="ICUBcontrib"]
+    icub__models [label="icub-models"]
+    robots__configuration [label="robots-configuration"]
+    icub__gazebo [label="icub-gazebo"]
+  }
+
+
+  YARP -> YCM [color="dimgray"];
+  YARP -> ACE [color="gray" style="dashed"];
+  YARP -> Eigen3 [color="gray" style="dashed"];
+  YARP -> SQLite [color="gray" style="dashed"];
+  ICUB -> YARP;
+  ICUBcontrib -> YARP;
+  robots__configuration -> YARP;
+  robots__configuration -> ICUBcontrib;
+  GazeboYARPPlugins -> YARP;
+  GazeboYARPPlugins -> gazebo [color="gray" style="dashed"];
+}

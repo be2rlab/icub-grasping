@@ -1,0 +1,3 @@
+repository='https://github.com/robotology/gazebo-yarp-plugins.git'
+module=''
+tag='origin'

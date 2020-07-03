@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../lib/libiDyn.a  CMakeFiles/iDyn.dir/src/iDyn.cpp.o CMakeFiles/iDyn.dir/src/iDynInv.cpp.o CMakeFiles/iDyn.dir/src/iDynBody.cpp.o CMakeFiles/iDyn.dir/src/iDynTransform.cpp.o CMakeFiles/iDyn.dir/src/iDynContact.cpp.o
+/usr/bin/ranlib ../../../lib/libiDyn.a

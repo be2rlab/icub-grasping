@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../lib/libperceptiveModels.a  CMakeFiles/perceptiveModels.dir/src/ports.cpp.o CMakeFiles/perceptiveModels.dir/src/sensors.cpp.o CMakeFiles/perceptiveModels.dir/src/nodes.cpp.o CMakeFiles/perceptiveModels.dir/src/models.cpp.o CMakeFiles/perceptiveModels.dir/src/springyFingers.cpp.o CMakeFiles/perceptiveModels.dir/src/tactileFingers.cpp.o
+/usr/bin/ranlib ../../../lib/libperceptiveModels.a

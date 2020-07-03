@@ -1,0 +1,13 @@
+# Target labels
+ GazeboYARPPlugins
+# Source files and their labels
+/icub-grasping/robotology-superbuild/build/CMakeFiles/GazeboYARPPlugins
+/icub-grasping/robotology-superbuild/build/CMakeFiles/GazeboYARPPlugins.rule
+/icub-grasping/robotology-superbuild/build/CMakeFiles/GazeboYARPPlugins-complete.rule
+/icub-grasping/robotology-superbuild/build/robotology/GazeboYARPPlugins/CMakeFiles/YCMStamp/GazeboYARPPlugins-install.rule
+/icub-grasping/robotology-superbuild/build/robotology/GazeboYARPPlugins/CMakeFiles/YCMStamp/GazeboYARPPlugins-mkdir.rule
+/icub-grasping/robotology-superbuild/build/robotology/GazeboYARPPlugins/CMakeFiles/YCMStamp/GazeboYARPPlugins-download.rule
+/icub-grasping/robotology-superbuild/build/robotology/GazeboYARPPlugins/CMakeFiles/YCMStamp/GazeboYARPPlugins-patch.rule
+/icub-grasping/robotology-superbuild/build/robotology/GazeboYARPPlugins/CMakeFiles/YCMStamp/GazeboYARPPlugins-configure.rule
+/icub-grasping/robotology-superbuild/build/robotology/GazeboYARPPlugins/CMakeFiles/YCMStamp/GazeboYARPPlugins-build.rule
+/icub-grasping/robotology-superbuild/build/robotology/GazeboYARPPlugins/CMakeFiles/YCMStamp/GazeboYARPPlugins-skip-update.rule

@@ -1,0 +1,11 @@
+set(YARP_rosmsg_native_VERSION @PACKAGE_VERSION@)
+
+@PACKAGE_INIT@
+
+@PACKAGE_DEPENDENCIES@
+
+include("${CMAKE_CURRENT_LIST_DIR}/YARP_rosmsg_nativeTargets.cmake")
+
+
+
+@INCLUDED_CONTENT@

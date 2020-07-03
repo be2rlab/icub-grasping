@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libYARP_priv_hmac.a  CMakeFiles/YARP_priv_hmac.dir/hmac/hmac_sha2.c.o CMakeFiles/YARP_priv_hmac.dir/hmac/sha2.c.o
+/usr/bin/ranlib ../../lib/libYARP_priv_hmac.a

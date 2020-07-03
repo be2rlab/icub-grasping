@@ -1,0 +1,28 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/icub-grasping/robotology-superbuild/build/CMakeFiles/ICUB-update"
+		},
+		{
+			"file" : "/icub-grasping/robotology-superbuild/build/CMakeFiles/ICUB-update.rule"
+		},
+		{
+			"file" : "/icub-grasping/robotology-superbuild/build/robotology/ICUB/CMakeFiles/YCMStamp/ICUB-update.rule"
+		},
+		{
+			"file" : "/icub-grasping/robotology-superbuild/build/robotology/ICUB/CMakeFiles/YCMStamp/ICUB-download.rule"
+		},
+		{
+			"file" : "/icub-grasping/robotology-superbuild/build/robotology/ICUB/CMakeFiles/YCMStamp/ICUB-mkdir.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ICUB"
+		],
+		"name" : "ICUB-update"
+	}
+}

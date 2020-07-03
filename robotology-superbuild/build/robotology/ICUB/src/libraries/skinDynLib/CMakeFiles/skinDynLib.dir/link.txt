@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../lib/libskinDynLib.a  CMakeFiles/skinDynLib.dir/src/skinContact.cpp.o CMakeFiles/skinDynLib.dir/src/skinContactList.cpp.o CMakeFiles/skinDynLib.dir/src/dynContact.cpp.o CMakeFiles/skinDynLib.dir/src/dynContactList.cpp.o CMakeFiles/skinDynLib.dir/src/common.cpp.o CMakeFiles/skinDynLib.dir/src/Taxel.cpp.o CMakeFiles/skinDynLib.dir/src/skinPart.cpp.o CMakeFiles/skinDynLib.dir/src/iCubSkin.cpp.o
+/usr/bin/ranlib ../../../lib/libskinDynLib.a

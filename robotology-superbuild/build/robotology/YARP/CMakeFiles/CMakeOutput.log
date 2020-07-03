@@ -1,0 +1,1734 @@
+The system is: Linux - 5.4.0-39-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/3.17.3/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/3.17.3/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5d2df/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_5d2df.dir/build.make CMakeFiles/cmTC_5d2df.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5d2df.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_5d2df.dir/testCCompiler.c.o   -c /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_5d2df
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d2df.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_5d2df.dir/testCCompiler.c.o  -o cmTC_5d2df 
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ee638/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_ee638.dir/build.make CMakeFiles/cmTC_ee638.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ee638.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_ee638.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.17/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ee638.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.17/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_ee638.dir/CMakeCCompilerABI.c.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccL2NjXf.s
+GNU C11 (Ubuntu 7.5.0-3ubuntu1~18.04) version 7.5.0 (x86_64-linux-gnu)
+	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/7/include
+ /usr/local/include
+ /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C11 (Ubuntu 7.5.0-3ubuntu1~18.04) version 7.5.0 (x86_64-linux-gnu)
+	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: b62ed4a2880cd4159476ea8293b72fa8
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ee638.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_ee638.dir/CMakeCCompilerABI.c.o /tmp/ccL2NjXf.s
+GNU assembler version 2.30 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.30
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ee638.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_ee638
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ee638.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTC_ee638.dir/CMakeCCompilerABI.c.o  -o cmTC_ee638 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ee638' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccslrpUj.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_ee638 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_ee638.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ee638' '-mtune=generic' '-march=x86-64'
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-linux-gnu/7/include]
+    add: [/usr/local/include]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/7/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/7/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed] ==> [/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/7/include;/usr/local/include;/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_ee638/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_ee638.dir/build.make CMakeFiles/cmTC_ee638.dir/build]
+  ignore line: [make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_ee638.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_ee638.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.17/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ee638.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/7/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.17/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_ee638.dir/CMakeCCompilerABI.c.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccL2NjXf.s]
+  ignore line: [GNU C11 (Ubuntu 7.5.0-3ubuntu1~18.04) version 7.5.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 7.5.0  GMP version 6.1.2  MPFR version 4.0.1  MPC version 1.1.0  isl version isl-0.19-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/7/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C11 (Ubuntu 7.5.0-3ubuntu1~18.04) version 7.5.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 7.5.0  GMP version 6.1.2  MPFR version 4.0.1  MPC version 1.1.0  isl version isl-0.19-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: b62ed4a2880cd4159476ea8293b72fa8]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ee638.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_ee638.dir/CMakeCCompilerABI.c.o /tmp/ccL2NjXf.s]
+  ignore line: [GNU assembler version 2.30 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.30]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ee638.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking C executable cmTC_ee638]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ee638.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_ee638.dir/CMakeCCompilerABI.c.o  -o cmTC_ee638 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ee638' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccslrpUj.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_ee638 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_ee638.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccslrpUj.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_ee638] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
+    arg [CMakeFiles/cmTC_ee638.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7] ==> [/usr/lib/gcc/x86_64-linux-gnu/7]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/7;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4bb0a/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_4bb0a.dir/build.make CMakeFiles/cmTC_4bb0a.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4bb0a.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_4bb0a.dir/testCXXCompiler.cxx.o -c /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_4bb0a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4bb0a.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_4bb0a.dir/testCXXCompiler.cxx.o  -o cmTC_4bb0a 
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_21cee/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_21cee.dir/build.make CMakeFiles/cmTC_21cee.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_21cee.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++    -v -o CMakeFiles/cmTC_21cee.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_21cee.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_21cee.dir/CMakeCXXCompilerABI.cpp.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccqHmkEt.s
+GNU C++14 (Ubuntu 7.5.0-3ubuntu1~18.04) version 7.5.0 (x86_64-linux-gnu)
+	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/7"
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/include/c++/7
+ /usr/include/x86_64-linux-gnu/c++/7
+ /usr/include/c++/7/backward
+ /usr/lib/gcc/x86_64-linux-gnu/7/include
+ /usr/local/include
+ /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C++14 (Ubuntu 7.5.0-3ubuntu1~18.04) version 7.5.0 (x86_64-linux-gnu)
+	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 3eb3dc290cd5714c3e1c3ae751116f07
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_21cee.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_21cee.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccqHmkEt.s
+GNU assembler version 2.30 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.30
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_21cee.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+Linking CXX executable cmTC_21cee
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_21cee.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTC_21cee.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_21cee 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_21cee' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccR3Mumv.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_21cee /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_21cee.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_21cee' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/include/c++/7]
+    add: [/usr/include/x86_64-linux-gnu/c++/7]
+    add: [/usr/include/c++/7/backward]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/7/include]
+    add: [/usr/local/include]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/include/c++/7] ==> [/usr/include/c++/7]
+  collapse include dir [/usr/include/x86_64-linux-gnu/c++/7] ==> [/usr/include/x86_64-linux-gnu/c++/7]
+  collapse include dir [/usr/include/c++/7/backward] ==> [/usr/include/c++/7/backward]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/7/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/7/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed] ==> [/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/include/c++/7;/usr/include/x86_64-linux-gnu/c++/7;/usr/include/c++/7/backward;/usr/lib/gcc/x86_64-linux-gnu/7/include;/usr/local/include;/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_21cee/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_21cee.dir/build.make CMakeFiles/cmTC_21cee.dir/build]
+  ignore line: [make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_21cee.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++    -v -o CMakeFiles/cmTC_21cee.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_21cee.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/7/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_21cee.dir/CMakeCXXCompilerABI.cpp.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccqHmkEt.s]
+  ignore line: [GNU C++14 (Ubuntu 7.5.0-3ubuntu1~18.04) version 7.5.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 7.5.0  GMP version 6.1.2  MPFR version 4.0.1  MPC version 1.1.0  isl version isl-0.19-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/7"]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/include/c++/7]
+  ignore line: [ /usr/include/x86_64-linux-gnu/c++/7]
+  ignore line: [ /usr/include/c++/7/backward]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/7/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (Ubuntu 7.5.0-3ubuntu1~18.04) version 7.5.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 7.5.0  GMP version 6.1.2  MPFR version 4.0.1  MPC version 1.1.0  isl version isl-0.19-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 3eb3dc290cd5714c3e1c3ae751116f07]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_21cee.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_21cee.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccqHmkEt.s]
+  ignore line: [GNU assembler version 2.30 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.30]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_21cee.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking CXX executable cmTC_21cee]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_21cee.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_21cee.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_21cee ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_21cee' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccR3Mumv.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_21cee /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_21cee.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccR3Mumv.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_21cee] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
+    arg [CMakeFiles/cmTC_21cee.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7] ==> [/usr/lib/gcc/x86_64-linux-gnu/7]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/7;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ac52b/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_ac52b.dir/build.make CMakeFiles/cmTC_ac52b.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ac52b.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_ac52b.dir/CheckIncludeFile.c.o   -c /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_ac52b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ac52b.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_ac52b.dir/CheckIncludeFile.c.o  -o cmTC_ac52b 
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e8b68/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_e8b68.dir/build.make CMakeFiles/cmTC_e8b68.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e8b68.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_e8b68.dir/CheckIncludeFile.c.o   -c /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_e8b68
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8b68.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_e8b68.dir/CheckIncludeFile.c.o  -o cmTC_e8b68 
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_88312/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_88312.dir/build.make CMakeFiles/cmTC_88312.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_88312.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_88312.dir/CheckIncludeFile.c.o   -c /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_88312
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88312.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_88312.dir/CheckIncludeFile.c.o  -o cmTC_88312 
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d4275/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_d4275.dir/build.make CMakeFiles/cmTC_d4275.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d4275.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_d4275.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o   -c /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_UNSIGNED_SHORT.c
+Linking C executable cmTC_d4275
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4275.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_d4275.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o  -o cmTC_d4275 
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the system is big endian passed with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_58c74/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_58c74.dir/build.make CMakeFiles/cmTC_58c74.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_58c74.dir/TestEndianess.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_58c74.dir/TestEndianess.c.o   -c /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTC_58c74
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_58c74.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_58c74.dir/TestEndianess.c.o  -o cmTC_58c74 
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of void * passed with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_49d22/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_49d22.dir/build.make CMakeFiles/cmTC_49d22.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_49d22.dir/YARP_POINTER_SIZE.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_49d22.dir/YARP_POINTER_SIZE.c.o   -c /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CheckTypeSize/YARP_POINTER_SIZE.c
+Linking C executable cmTC_49d22
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_49d22.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_49d22.dir/YARP_POINTER_SIZE.c.o  -o cmTC_49d22 
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of float passed with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8c941/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_8c941.dir/build.make CMakeFiles/cmTC_8c941.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8c941.dir/SIZEOF_FLOAT.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_8c941.dir/SIZEOF_FLOAT.c.o   -c /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CheckTypeSize/SIZEOF_FLOAT.c
+Linking C executable cmTC_8c941
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8c941.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_8c941.dir/SIZEOF_FLOAT.c.o  -o cmTC_8c941 
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of double passed with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d913d/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_d913d.dir/build.make CMakeFiles/cmTC_d913d.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d913d.dir/SIZEOF_DOUBLE.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_d913d.dir/SIZEOF_DOUBLE.c.o   -c /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CheckTypeSize/SIZEOF_DOUBLE.c
+Linking C executable cmTC_d913d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d913d.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_d913d.dir/SIZEOF_DOUBLE.c.o  -o cmTC_d913d 
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of long double passed with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0a511/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_0a511.dir/build.make CMakeFiles/cmTC_0a511.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0a511.dir/SIZEOF_LONG_DOUBLE.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_0a511.dir/SIZEOF_LONG_DOUBLE.c.o   -c /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CheckTypeSize/SIZEOF_LONG_DOUBLE.c
+Linking C executable cmTC_0a511
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0a511.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_0a511.dir/SIZEOF_LONG_DOUBLE.c.o  -o cmTC_0a511 
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+
+Performing C++ SOURCE FILE Test CXX_HAS_WALL succeeded with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f8e44/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_f8e44.dir/build.make CMakeFiles/cmTC_f8e44.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f8e44.dir/src.cxx.o
+/usr/bin/c++    -DCXX_HAS_WALL   -Wall -std=c++14 -o CMakeFiles/cmTC_f8e44.dir/src.cxx.o -c /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_f8e44
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f8e44.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_HAS_WALL    CMakeFiles/cmTC_f8e44.dir/src.cxx.o  -o cmTC_f8e44 
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_HAS_WEXTRA succeeded with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d370e/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_d370e.dir/build.make CMakeFiles/cmTC_d370e.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d370e.dir/src.cxx.o
+/usr/bin/c++    -DCXX_HAS_WEXTRA   -Wextra -std=c++14 -o CMakeFiles/cmTC_d370e.dir/src.cxx.o -c /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_d370e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d370e.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_HAS_WEXTRA    CMakeFiles/cmTC_d370e.dir/src.cxx.o  -o cmTC_d370e 
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_HAS_WSIGN_COMPARE succeeded with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_58781/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_58781.dir/build.make CMakeFiles/cmTC_58781.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_58781.dir/src.cxx.o
+/usr/bin/c++    -DCXX_HAS_WSIGN_COMPARE   -Wsign-compare -std=c++14 -o CMakeFiles/cmTC_58781.dir/src.cxx.o -c /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_58781
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_58781.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_HAS_WSIGN_COMPARE    CMakeFiles/cmTC_58781.dir/src.cxx.o  -o cmTC_58781 
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_HAS_WPOINTER_ARITH succeeded with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ef354/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_ef354.dir/build.make CMakeFiles/cmTC_ef354.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ef354.dir/src.cxx.o
+/usr/bin/c++    -DCXX_HAS_WPOINTER_ARITH   -Wpointer-arith -std=c++14 -o CMakeFiles/cmTC_ef354.dir/src.cxx.o -c /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_ef354
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef354.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_HAS_WPOINTER_ARITH    CMakeFiles/cmTC_ef354.dir/src.cxx.o  -o cmTC_ef354 
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_HAS_WINIT_SELF succeeded with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9ac9d/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_9ac9d.dir/build.make CMakeFiles/cmTC_9ac9d.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9ac9d.dir/src.cxx.o
+/usr/bin/c++    -DCXX_HAS_WINIT_SELF   -Winit-self -std=c++14 -o CMakeFiles/cmTC_9ac9d.dir/src.cxx.o -c /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_9ac9d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9ac9d.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_HAS_WINIT_SELF    CMakeFiles/cmTC_9ac9d.dir/src.cxx.o  -o cmTC_9ac9d 
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_HAS_WNON_VIRTUAL_DTOR succeeded with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e126a/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_e126a.dir/build.make CMakeFiles/cmTC_e126a.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e126a.dir/src.cxx.o
+/usr/bin/c++    -DCXX_HAS_WNON_VIRTUAL_DTOR   -Wnon-virtual-dtor -std=c++14 -o CMakeFiles/cmTC_e126a.dir/src.cxx.o -c /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_e126a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e126a.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_HAS_WNON_VIRTUAL_DTOR    CMakeFiles/cmTC_e126a.dir/src.cxx.o  -o cmTC_e126a 
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_HAS_WCAST_ALIGN succeeded with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6cb29/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_6cb29.dir/build.make CMakeFiles/cmTC_6cb29.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6cb29.dir/src.cxx.o
+/usr/bin/c++    -DCXX_HAS_WCAST_ALIGN   -Wcast-align -std=c++14 -o CMakeFiles/cmTC_6cb29.dir/src.cxx.o -c /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_6cb29
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6cb29.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_HAS_WCAST_ALIGN    CMakeFiles/cmTC_6cb29.dir/src.cxx.o  -o cmTC_6cb29 
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_HAS_WUNUSED succeeded with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b9979/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_b9979.dir/build.make CMakeFiles/cmTC_b9979.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b9979.dir/src.cxx.o
+/usr/bin/c++    -DCXX_HAS_WUNUSED   -Wunused -std=c++14 -o CMakeFiles/cmTC_b9979.dir/src.cxx.o -c /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_b9979
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b9979.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_HAS_WUNUSED    CMakeFiles/cmTC_b9979.dir/src.cxx.o  -o cmTC_b9979 
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_HAS_WUNUSED_BUT_SET_VARIABLE succeeded with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3a656/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_3a656.dir/build.make CMakeFiles/cmTC_3a656.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3a656.dir/src.cxx.o
+/usr/bin/c++    -DCXX_HAS_WUNUSED_BUT_SET_VARIABLE   -Wunused-but-set-variable -std=c++14 -o CMakeFiles/cmTC_3a656.dir/src.cxx.o -c /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_3a656
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3a656.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_HAS_WUNUSED_BUT_SET_VARIABLE    CMakeFiles/cmTC_3a656.dir/src.cxx.o  -o cmTC_3a656 
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_HAS_WVLA succeeded with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c2564/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_c2564.dir/build.make CMakeFiles/cmTC_c2564.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c2564.dir/src.cxx.o
+/usr/bin/c++    -DCXX_HAS_WVLA   -Wvla -std=c++14 -o CMakeFiles/cmTC_c2564.dir/src.cxx.o -c /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c2564
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c2564.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_HAS_WVLA    CMakeFiles/cmTC_c2564.dir/src.cxx.o  -o cmTC_c2564 
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_HAS_WMISSING_INCLUDE_DIRS succeeded with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a1f6c/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_a1f6c.dir/build.make CMakeFiles/cmTC_a1f6c.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a1f6c.dir/src.cxx.o
+/usr/bin/c++    -DCXX_HAS_WMISSING_INCLUDE_DIRS   -Wmissing-include-dirs -std=c++14 -o CMakeFiles/cmTC_a1f6c.dir/src.cxx.o -c /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_a1f6c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a1f6c.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_HAS_WMISSING_INCLUDE_DIRS    CMakeFiles/cmTC_a1f6c.dir/src.cxx.o  -o cmTC_a1f6c 
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_HAS_WLOGICAL_OP succeeded with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3315e/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_3315e.dir/build.make CMakeFiles/cmTC_3315e.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3315e.dir/src.cxx.o
+/usr/bin/c++    -DCXX_HAS_WLOGICAL_OP   -Wlogical-op -std=c++14 -o CMakeFiles/cmTC_3315e.dir/src.cxx.o -c /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_3315e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3315e.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_HAS_WLOGICAL_OP    CMakeFiles/cmTC_3315e.dir/src.cxx.o  -o cmTC_3315e 
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_HAS_WREORDER succeeded with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0478f/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_0478f.dir/build.make CMakeFiles/cmTC_0478f.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0478f.dir/src.cxx.o
+/usr/bin/c++    -DCXX_HAS_WREORDER   -Wreorder -std=c++14 -o CMakeFiles/cmTC_0478f.dir/src.cxx.o -c /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_0478f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0478f.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_HAS_WREORDER    CMakeFiles/cmTC_0478f.dir/src.cxx.o  -o cmTC_0478f 
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_HAS_WSIZEOF_POINTER_MEMACCESS succeeded with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_49dc3/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_49dc3.dir/build.make CMakeFiles/cmTC_49dc3.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_49dc3.dir/src.cxx.o
+/usr/bin/c++    -DCXX_HAS_WSIZEOF_POINTER_MEMACCESS   -Wsizeof-pointer-memaccess -std=c++14 -o CMakeFiles/cmTC_49dc3.dir/src.cxx.o -c /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_49dc3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_49dc3.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_HAS_WSIZEOF_POINTER_MEMACCESS    CMakeFiles/cmTC_49dc3.dir/src.cxx.o  -o cmTC_49dc3 
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_HAS_WOVERLOADED_VIRTUAL succeeded with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d1da9/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_d1da9.dir/build.make CMakeFiles/cmTC_d1da9.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d1da9.dir/src.cxx.o
+/usr/bin/c++    -DCXX_HAS_WOVERLOADED_VIRTUAL   -Woverloaded-virtual -std=c++14 -o CMakeFiles/cmTC_d1da9.dir/src.cxx.o -c /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_d1da9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1da9.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_HAS_WOVERLOADED_VIRTUAL    CMakeFiles/cmTC_d1da9.dir/src.cxx.o  -o cmTC_d1da9 
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_HAS_WUNDEF succeeded with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c60e5/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_c60e5.dir/build.make CMakeFiles/cmTC_c60e5.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c60e5.dir/src.cxx.o
+/usr/bin/c++    -DCXX_HAS_WUNDEF   -Wundef -std=c++14 -o CMakeFiles/cmTC_c60e5.dir/src.cxx.o -c /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c60e5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c60e5.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_HAS_WUNDEF    CMakeFiles/cmTC_c60e5.dir/src.cxx.o  -o cmTC_c60e5 
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_HAS_WREDUNDANT_DECLS succeeded with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_fabbf/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_fabbf.dir/build.make CMakeFiles/cmTC_fabbf.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_fabbf.dir/src.cxx.o
+/usr/bin/c++    -DCXX_HAS_WREDUNDANT_DECLS   -Wredundant-decls -std=c++14 -o CMakeFiles/cmTC_fabbf.dir/src.cxx.o -c /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_fabbf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fabbf.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_HAS_WREDUNDANT_DECLS    CMakeFiles/cmTC_fabbf.dir/src.cxx.o  -o cmTC_fabbf 
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_HAS_WUNKNOWN_PRAGMAS succeeded with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1069e/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_1069e.dir/build.make CMakeFiles/cmTC_1069e.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1069e.dir/src.cxx.o
+/usr/bin/c++    -DCXX_HAS_WUNKNOWN_PRAGMAS   -Wunknown-pragmas -std=c++14 -o CMakeFiles/cmTC_1069e.dir/src.cxx.o -c /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_1069e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1069e.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_HAS_WUNKNOWN_PRAGMAS    CMakeFiles/cmTC_1069e.dir/src.cxx.o  -o cmTC_1069e 
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_HAS_WUNUSED_RESULT succeeded with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3685e/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_3685e.dir/build.make CMakeFiles/cmTC_3685e.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3685e.dir/src.cxx.o
+/usr/bin/c++    -DCXX_HAS_WUNUSED_RESULT   -Wunused-result -std=c++14 -o CMakeFiles/cmTC_3685e.dir/src.cxx.o -c /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_3685e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3685e.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_HAS_WUNUSED_RESULT    CMakeFiles/cmTC_3685e.dir/src.cxx.o  -o cmTC_3685e 
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_HAS_WC__11_COMPAT succeeded with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_61e89/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_61e89.dir/build.make CMakeFiles/cmTC_61e89.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_61e89.dir/src.cxx.o
+/usr/bin/c++    -DCXX_HAS_WC__11_COMPAT   -Wc++11-compat -std=c++14 -o CMakeFiles/cmTC_61e89.dir/src.cxx.o -c /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_61e89
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61e89.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_HAS_WC__11_COMPAT    CMakeFiles/cmTC_61e89.dir/src.cxx.o  -o cmTC_61e89 
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_HAS_WIGNORED_ATTRIBUTES succeeded with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ac823/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_ac823.dir/build.make CMakeFiles/cmTC_ac823.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ac823.dir/src.cxx.o
+/usr/bin/c++    -DCXX_HAS_WIGNORED_ATTRIBUTES   -Wignored-attributes -std=c++14 -o CMakeFiles/cmTC_ac823.dir/src.cxx.o -c /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_ac823
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ac823.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_HAS_WIGNORED_ATTRIBUTES    CMakeFiles/cmTC_ac823.dir/src.cxx.o  -o cmTC_ac823 
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_HAS_WDANGLING_ELSE succeeded with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_81aee/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_81aee.dir/build.make CMakeFiles/cmTC_81aee.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_81aee.dir/src.cxx.o
+/usr/bin/c++    -DCXX_HAS_WDANGLING_ELSE   -Wdangling-else -std=c++14 -o CMakeFiles/cmTC_81aee.dir/src.cxx.o -c /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_81aee
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_81aee.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_HAS_WDANGLING_ELSE    CMakeFiles/cmTC_81aee.dir/src.cxx.o  -o cmTC_81aee 
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_HAS_WMISLEADING_INDENTATION succeeded with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_cebbe/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_cebbe.dir/build.make CMakeFiles/cmTC_cebbe.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_cebbe.dir/src.cxx.o
+/usr/bin/c++    -DCXX_HAS_WMISLEADING_INDENTATION   -Wmisleading-indentation -std=c++14 -o CMakeFiles/cmTC_cebbe.dir/src.cxx.o -c /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_cebbe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cebbe.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_HAS_WMISLEADING_INDENTATION    CMakeFiles/cmTC_cebbe.dir/src.cxx.o  -o cmTC_cebbe 
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_HAS_WTAUTOLOGICAL_COMPARE succeeded with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d6d8d/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_d6d8d.dir/build.make CMakeFiles/cmTC_d6d8d.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d6d8d.dir/src.cxx.o
+/usr/bin/c++    -DCXX_HAS_WTAUTOLOGICAL_COMPARE   -Wtautological-compare -std=c++14 -o CMakeFiles/cmTC_d6d8d.dir/src.cxx.o -c /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_d6d8d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6d8d.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_HAS_WTAUTOLOGICAL_COMPARE    CMakeFiles/cmTC_d6d8d.dir/src.cxx.o  -o cmTC_d6d8d 
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_HAS_WSUGGEST_OVERRIDE succeeded with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d5278/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_d5278.dir/build.make CMakeFiles/cmTC_d5278.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d5278.dir/src.cxx.o
+/usr/bin/c++    -DCXX_HAS_WSUGGEST_OVERRIDE   -Wsuggest-override -std=c++14 -o CMakeFiles/cmTC_d5278.dir/src.cxx.o -c /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_d5278
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d5278.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_HAS_WSUGGEST_OVERRIDE    CMakeFiles/cmTC_d5278.dir/src.cxx.o  -o cmTC_d5278 
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_HAS_WMAYBE_UNINITIALIZED succeeded with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8c4cc/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_8c4cc.dir/build.make CMakeFiles/cmTC_8c4cc.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8c4cc.dir/src.cxx.o
+/usr/bin/c++    -DCXX_HAS_WMAYBE_UNINITIALIZED   -Wmaybe-uninitialized -std=c++14 -o CMakeFiles/cmTC_8c4cc.dir/src.cxx.o -c /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_8c4cc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8c4cc.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_HAS_WMAYBE_UNINITIALIZED    CMakeFiles/cmTC_8c4cc.dir/src.cxx.o  -o cmTC_8c4cc 
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_HAS_WNO_UNUSED_PARAMETER succeeded with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b71d3/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_b71d3.dir/build.make CMakeFiles/cmTC_b71d3.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b71d3.dir/src.cxx.o
+/usr/bin/c++    -DCXX_HAS_WNO_UNUSED_PARAMETER   -Wno-unused-parameter -std=c++14 -o CMakeFiles/cmTC_b71d3.dir/src.cxx.o -c /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_b71d3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b71d3.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_HAS_WNO_UNUSED_PARAMETER    CMakeFiles/cmTC_b71d3.dir/src.cxx.o  -o cmTC_b71d3 
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_HAS_WCONVERSION succeeded with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_daa6e/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_daa6e.dir/build.make CMakeFiles/cmTC_daa6e.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_daa6e.dir/src.cxx.o
+/usr/bin/c++    -DCXX_HAS_WCONVERSION   -Wconversion -std=c++14 -o CMakeFiles/cmTC_daa6e.dir/src.cxx.o -c /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_daa6e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_daa6e.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_HAS_WCONVERSION    CMakeFiles/cmTC_daa6e.dir/src.cxx.o  -o cmTC_daa6e 
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_HAS_WSIGN_CONVERSION succeeded with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9957b/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_9957b.dir/build.make CMakeFiles/cmTC_9957b.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9957b.dir/src.cxx.o
+/usr/bin/c++    -DCXX_HAS_WSIGN_CONVERSION   -Wsign-conversion -std=c++14 -o CMakeFiles/cmTC_9957b.dir/src.cxx.o -c /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_9957b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9957b.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_HAS_WSIGN_CONVERSION    CMakeFiles/cmTC_9957b.dir/src.cxx.o  -o cmTC_9957b 
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_HAS_WOLD_STYLE_CAST succeeded with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_11e59/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_11e59.dir/build.make CMakeFiles/cmTC_11e59.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_11e59.dir/src.cxx.o
+/usr/bin/c++    -DCXX_HAS_WOLD_STYLE_CAST   -Wold-style-cast -std=c++14 -o CMakeFiles/cmTC_11e59.dir/src.cxx.o -c /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_11e59
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_11e59.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_HAS_WOLD_STYLE_CAST    CMakeFiles/cmTC_11e59.dir/src.cxx.o  -o cmTC_11e59 
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_HAS_WINLINE succeeded with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_289f4/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_289f4.dir/build.make CMakeFiles/cmTC_289f4.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_289f4.dir/src.cxx.o
+/usr/bin/c++    -DCXX_HAS_WINLINE   -Winline -std=c++14 -o CMakeFiles/cmTC_289f4.dir/src.cxx.o -c /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_289f4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_289f4.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_HAS_WINLINE    CMakeFiles/cmTC_289f4.dir/src.cxx.o  -o cmTC_289f4 
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_HAS_WFLOAT_EQUAL succeeded with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_daac4/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_daac4.dir/build.make CMakeFiles/cmTC_daac4.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_daac4.dir/src.cxx.o
+/usr/bin/c++    -DCXX_HAS_WFLOAT_EQUAL   -Wfloat-equal -std=c++14 -o CMakeFiles/cmTC_daac4.dir/src.cxx.o -c /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_daac4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_daac4.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_HAS_WFLOAT_EQUAL    CMakeFiles/cmTC_daac4.dir/src.cxx.o  -o cmTC_daac4 
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_HAS_FVISIBILITY_HIDDEN succeeded with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_60ae2/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_60ae2.dir/build.make CMakeFiles/cmTC_60ae2.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_60ae2.dir/src.cxx.o
+/usr/bin/c++    -DCXX_HAS_FVISIBILITY_HIDDEN   -fvisibility=hidden -std=c++14 -o CMakeFiles/cmTC_60ae2.dir/src.cxx.o -c /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_60ae2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_60ae2.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_HAS_FVISIBILITY_HIDDEN    CMakeFiles/cmTC_60ae2.dir/src.cxx.o  -o cmTC_60ae2 
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_HAS_FVISIBILITY_INLINES_HIDDEN succeeded with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_abc37/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_abc37.dir/build.make CMakeFiles/cmTC_abc37.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_abc37.dir/src.cxx.o
+/usr/bin/c++    -DCXX_HAS_FVISIBILITY_INLINES_HIDDEN   -fvisibility-inlines-hidden -std=c++14 -o CMakeFiles/cmTC_abc37.dir/src.cxx.o -c /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_abc37
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_abc37.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_HAS_FVISIBILITY_INLINES_HIDDEN    CMakeFiles/cmTC_abc37.dir/src.cxx.o  -o cmTC_abc37 
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_HAS_WDEPRECATED_DECLARATIONS succeeded with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c263e/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_c263e.dir/build.make CMakeFiles/cmTC_c263e.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c263e.dir/src.cxx.o
+/usr/bin/c++    -DCXX_HAS_WDEPRECATED_DECLARATIONS   -Wdeprecated-declarations -std=c++14 -o CMakeFiles/cmTC_c263e.dir/src.cxx.o -c /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c263e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c263e.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_HAS_WDEPRECATED_DECLARATIONS    CMakeFiles/cmTC_c263e.dir/src.cxx.o  -o cmTC_c263e 
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_HAS_WFORMAT succeeded with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4d678/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_4d678.dir/build.make CMakeFiles/cmTC_4d678.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4d678.dir/src.cxx.o
+/usr/bin/c++    -DCXX_HAS_WFORMAT   -Wformat -std=c++14 -o CMakeFiles/cmTC_4d678.dir/src.cxx.o -c /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_4d678
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4d678.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_HAS_WFORMAT    CMakeFiles/cmTC_4d678.dir/src.cxx.o  -o cmTC_4d678 
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_HAS_WFORMAT_2 succeeded with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e8086/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_e8086.dir/build.make CMakeFiles/cmTC_e8086.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e8086.dir/src.cxx.o
+/usr/bin/c++    -DCXX_HAS_WFORMAT_2   -Wformat=2 -std=c++14 -o CMakeFiles/cmTC_e8086.dir/src.cxx.o -c /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_e8086
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8086.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_HAS_WFORMAT_2    CMakeFiles/cmTC_e8086.dir/src.cxx.o  -o cmTC_e8086 
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_HAS_WFORMAT_SECURITY succeeded with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_008e7/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_008e7.dir/build.make CMakeFiles/cmTC_008e7.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_008e7.dir/src.cxx.o
+/usr/bin/c++    -DCXX_HAS_WFORMAT_SECURITY   -Wformat-security -std=c++14 -o CMakeFiles/cmTC_008e7.dir/src.cxx.o -c /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_008e7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_008e7.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_HAS_WFORMAT_SECURITY    CMakeFiles/cmTC_008e7.dir/src.cxx.o  -o cmTC_008e7 
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_HAS_WFORMAT_Y2K succeeded with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_550b0/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_550b0.dir/build.make CMakeFiles/cmTC_550b0.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_550b0.dir/src.cxx.o
+/usr/bin/c++    -DCXX_HAS_WFORMAT_Y2K   -Wformat-y2k -std=c++14 -o CMakeFiles/cmTC_550b0.dir/src.cxx.o -c /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_550b0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_550b0.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_HAS_WFORMAT_Y2K    CMakeFiles/cmTC_550b0.dir/src.cxx.o  -o cmTC_550b0 
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_HAS_WFORMAT_NONLITERAL succeeded with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c5013/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_c5013.dir/build.make CMakeFiles/cmTC_c5013.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c5013.dir/src.cxx.o
+/usr/bin/c++    -DCXX_HAS_WFORMAT_NONLITERAL   -Wformat-nonliteral -std=c++14 -o CMakeFiles/cmTC_c5013.dir/src.cxx.o -c /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c5013
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c5013.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_HAS_WFORMAT_NONLITERAL    CMakeFiles/cmTC_c5013.dir/src.cxx.o  -o cmTC_c5013 
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_HAS_FSTACK_PROTECTOR succeeded with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1b8ff/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_1b8ff.dir/build.make CMakeFiles/cmTC_1b8ff.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1b8ff.dir/src.cxx.o
+/usr/bin/c++    -DCXX_HAS_FSTACK_PROTECTOR   -fstack-protector --param=ssp-buffer-size=4 -std=c++14 -o CMakeFiles/cmTC_1b8ff.dir/src.cxx.o -c /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_1b8ff
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1b8ff.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_HAS_FSTACK_PROTECTOR    CMakeFiles/cmTC_1b8ff.dir/src.cxx.o  -o cmTC_1b8ff 
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_HAS_WL__ZRELRO succeeded with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a7b11/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_a7b11.dir/build.make CMakeFiles/cmTC_a7b11.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a7b11.dir/src.cxx.o
+/usr/bin/c++    -DCXX_HAS_WL__ZRELRO   -Wl,-zrelro -std=c++14 -o CMakeFiles/cmTC_a7b11.dir/src.cxx.o -c /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_a7b11
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a7b11.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_HAS_WL__ZRELRO    CMakeFiles/cmTC_a7b11.dir/src.cxx.o  -o cmTC_a7b11 
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_HAS_WL__ZNOW succeeded with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_cff97/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_cff97.dir/build.make CMakeFiles/cmTC_cff97.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_cff97.dir/src.cxx.o
+/usr/bin/c++    -DCXX_HAS_WL__ZNOW   -Wl,-znow -std=c++14 -o CMakeFiles/cmTC_cff97.dir/src.cxx.o -c /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_cff97
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cff97.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_HAS_WL__ZNOW    CMakeFiles/cmTC_cff97.dir/src.cxx.o  -o cmTC_cff97 
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_HAS_FPIE succeeded with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6b797/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_6b797.dir/build.make CMakeFiles/cmTC_6b797.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6b797.dir/src.cxx.o
+/usr/bin/c++    -DCXX_HAS_FPIE   -fPIE -pie -std=c++14 -o CMakeFiles/cmTC_6b797.dir/src.cxx.o -c /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_6b797
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6b797.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_HAS_FPIE    CMakeFiles/cmTC_6b797.dir/src.cxx.o  -o cmTC_6b797 
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_HAS_STD_CXX11 succeeded with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b6883/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_b6883.dir/build.make CMakeFiles/cmTC_b6883.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b6883.dir/src.cxx.o
+/usr/bin/c++    -DCXX_HAS_STD_CXX11   -std=c++11 -std=c++14 -o CMakeFiles/cmTC_b6883.dir/src.cxx.o -c /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_b6883
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6883.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_HAS_STD_CXX11    CMakeFiles/cmTC_b6883.dir/src.cxx.o  -o cmTC_b6883 
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_HAS_STD_CXX0X succeeded with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_65e99/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_65e99.dir/build.make CMakeFiles/cmTC_65e99.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_65e99.dir/src.cxx.o
+/usr/bin/c++    -DCXX_HAS_STD_CXX0X   -std=c++0x -std=c++14 -o CMakeFiles/cmTC_65e99.dir/src.cxx.o -c /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_65e99
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_65e99.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_HAS_STD_CXX0X    CMakeFiles/cmTC_65e99.dir/src.cxx.o  -o cmTC_65e99 
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_HAS_STD_CXX14 succeeded with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1e97b/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_1e97b.dir/build.make CMakeFiles/cmTC_1e97b.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1e97b.dir/src.cxx.o
+/usr/bin/c++    -DCXX_HAS_STD_CXX14   -std=c++14 -std=c++14 -o CMakeFiles/cmTC_1e97b.dir/src.cxx.o -c /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_1e97b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1e97b.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_HAS_STD_CXX14    CMakeFiles/cmTC_1e97b.dir/src.cxx.o  -o cmTC_1e97b 
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_HAS_STD_CXX1Y succeeded with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6ee2e/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_6ee2e.dir/build.make CMakeFiles/cmTC_6ee2e.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6ee2e.dir/src.cxx.o
+/usr/bin/c++    -DCXX_HAS_STD_CXX1Y   -std=c++1y -std=c++14 -o CMakeFiles/cmTC_6ee2e.dir/src.cxx.o -c /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_6ee2e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6ee2e.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_HAS_STD_CXX1Y    CMakeFiles/cmTC_6ee2e.dir/src.cxx.o  -o cmTC_6ee2e 
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_HAS_STD_CXX17 succeeded with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8e196/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_8e196.dir/build.make CMakeFiles/cmTC_8e196.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8e196.dir/src.cxx.o
+/usr/bin/c++    -DCXX_HAS_STD_CXX17   -std=c++17 -std=c++14 -o CMakeFiles/cmTC_8e196.dir/src.cxx.o -c /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_8e196
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8e196.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_HAS_STD_CXX17    CMakeFiles/cmTC_8e196.dir/src.cxx.o  -o cmTC_8e196 
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_HAS_STD_CXX1Z succeeded with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_dcb77/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_dcb77.dir/build.make CMakeFiles/cmTC_dcb77.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_dcb77.dir/src.cxx.o
+/usr/bin/c++    -DCXX_HAS_STD_CXX1Z   -std=c++1z -std=c++14 -o CMakeFiles/cmTC_dcb77.dir/src.cxx.o -c /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_dcb77
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dcb77.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_HAS_STD_CXX1Z    CMakeFiles/cmTC_dcb77.dir/src.cxx.o  -o cmTC_dcb77 
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_HAS_WERROR succeeded with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6f79c/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_6f79c.dir/build.make CMakeFiles/cmTC_6f79c.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6f79c.dir/src.cxx.o
+/usr/bin/c++    -DCXX_HAS_WERROR   -Werror -std=c++14 -o CMakeFiles/cmTC_6f79c.dir/src.cxx.o -c /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_6f79c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6f79c.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_HAS_WERROR    CMakeFiles/cmTC_6f79c.dir/src.cxx.o  -o cmTC_6f79c 
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_HAS_WFATAL_ERROR succeeded with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f4858/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_f4858.dir/build.make CMakeFiles/cmTC_f4858.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f4858.dir/src.cxx.o
+/usr/bin/c++    -DCXX_HAS_WFATAL_ERROR   -Wfatal-errors -std=c++14 -o CMakeFiles/cmTC_f4858.dir/src.cxx.o -c /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_f4858
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f4858.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_HAS_WFATAL_ERROR    CMakeFiles/cmTC_f4858.dir/src.cxx.o  -o cmTC_f4858 
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Determining if files execinfo.h exist passed with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_09df6/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_09df6.dir/build.make CMakeFiles/cmTC_09df6.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_09df6.dir/YARP_HAS_EXECINFO_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_09df6.dir/YARP_HAS_EXECINFO_H.c.o   -c /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CheckIncludeFiles/YARP_HAS_EXECINFO_H.c
+Linking C executable cmTC_09df6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_09df6.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_09df6.dir/YARP_HAS_EXECINFO_H.c.o  -o cmTC_09df6 
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files sys/wait.h exist passed with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_29fd7/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_29fd7.dir/build.make CMakeFiles/cmTC_29fd7.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_29fd7.dir/YARP_HAS_SYS_WAIT_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_29fd7.dir/YARP_HAS_SYS_WAIT_H.c.o   -c /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CheckIncludeFiles/YARP_HAS_SYS_WAIT_H.c
+Linking C executable cmTC_29fd7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_29fd7.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_29fd7.dir/YARP_HAS_SYS_WAIT_H.c.o  -o cmTC_29fd7 
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files sys/types.h exist passed with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8fa38/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_8fa38.dir/build.make CMakeFiles/cmTC_8fa38.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8fa38.dir/YARP_HAS_SYS_TYPES_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_8fa38.dir/YARP_HAS_SYS_TYPES_H.c.o   -c /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CheckIncludeFiles/YARP_HAS_SYS_TYPES_H.c
+Linking C executable cmTC_8fa38
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8fa38.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_8fa38.dir/YARP_HAS_SYS_TYPES_H.c.o  -o cmTC_8fa38 
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files sys/prctl.h exist passed with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f3e19/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_f3e19.dir/build.make CMakeFiles/cmTC_f3e19.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f3e19.dir/YARP_HAS_SYS_PRCTL_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_f3e19.dir/YARP_HAS_SYS_PRCTL_H.c.o   -c /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CheckIncludeFiles/YARP_HAS_SYS_PRCTL_H.c
+Linking C executable cmTC_f3e19
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f3e19.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_f3e19.dir/YARP_HAS_SYS_PRCTL_H.c.o  -o cmTC_f3e19 
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files signal.h exist passed with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d975a/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_d975a.dir/build.make CMakeFiles/cmTC_d975a.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d975a.dir/YARP_HAS_SIGNAL_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_d975a.dir/YARP_HAS_SIGNAL_H.c.o   -c /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CheckIncludeFiles/YARP_HAS_SIGNAL_H.c
+Linking C executable cmTC_d975a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d975a.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_d975a.dir/YARP_HAS_SIGNAL_H.c.o  -o cmTC_d975a 
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files sys/signal.h exist passed with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ee992/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_ee992.dir/build.make CMakeFiles/cmTC_ee992.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ee992.dir/YARP_HAS_SYS_SIGNAL_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_ee992.dir/YARP_HAS_SYS_SIGNAL_H.c.o   -c /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CheckIncludeFiles/YARP_HAS_SYS_SIGNAL_H.c
+Linking C executable cmTC_ee992
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ee992.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_ee992.dir/YARP_HAS_SYS_SIGNAL_H.c.o  -o cmTC_ee992 
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files netdb.h exist passed with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_116f0/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_116f0.dir/build.make CMakeFiles/cmTC_116f0.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_116f0.dir/YARP_HAS_NETDB_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_116f0.dir/YARP_HAS_NETDB_H.c.o   -c /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CheckIncludeFiles/YARP_HAS_NETDB_H.c
+Linking C executable cmTC_116f0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_116f0.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_116f0.dir/YARP_HAS_NETDB_H.c.o  -o cmTC_116f0 
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files dlfcn.h exist passed with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9ee99/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_9ee99.dir/build.make CMakeFiles/cmTC_9ee99.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9ee99.dir/YARP_HAS_DLFCN_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_9ee99.dir/YARP_HAS_DLFCN_H.c.o   -c /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CheckIncludeFiles/YARP_HAS_DLFCN_H.c
+Linking C executable cmTC_9ee99
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9ee99.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_9ee99.dir/YARP_HAS_DLFCN_H.c.o  -o cmTC_9ee99 
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files ifaddrs.h exist passed with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9ff31/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_9ff31.dir/build.make CMakeFiles/cmTC_9ff31.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9ff31.dir/YARP_HAS_IFADDRS_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_9ff31.dir/YARP_HAS_IFADDRS_H.c.o   -c /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CheckIncludeFiles/YARP_HAS_IFADDRS_H.c
+Linking C executable cmTC_9ff31
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9ff31.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_9ff31.dir/YARP_HAS_IFADDRS_H.c.o  -o cmTC_9ff31 
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+
+Performing C++ SOURCE FILE Test ACE_COMPILES_WITHOUT_INLINE_RELEASE succeeded with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c2a36/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_c2a36.dir/build.make CMakeFiles/cmTC_c2a36.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c2a36.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wextra -Wsign-compare -Wpointer-arith -Winit-self -Wnon-virtual-dtor -Wcast-align -Wunused -Wunused-but-set-variable -Wvla -Wmissing-include-dirs -Wlogical-op -Wreorder -Wsizeof-pointer-memaccess -Woverloaded-virtual -Wundef -Wredundant-decls -Wunknown-pragmas -Wunused-result -Wc++11-compat -Wignored-attributes -Wdangling-else -Wmisleading-indentation -Wtautological-compare -Wsuggest-override -Wmaybe-uninitialized  -Wno-unused-parameter  -fvisibility=hidden -fvisibility-inlines-hidden  -Wdeprecated-declarations -DACE_COMPILES_WITHOUT_INLINE_RELEASE -O3 -DNDEBUG -fPIE   -std=c++14 -o CMakeFiles/cmTC_c2a36.dir/src.cxx.o -c /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c2a36
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c2a36.dir/link.txt --verbose=1
+/usr/bin/c++    -Wall -Wextra -Wsign-compare -Wpointer-arith -Winit-self -Wnon-virtual-dtor -Wcast-align -Wunused -Wunused-but-set-variable -Wvla -Wmissing-include-dirs -Wlogical-op -Wreorder -Wsizeof-pointer-memaccess -Woverloaded-virtual -Wundef -Wredundant-decls -Wunknown-pragmas -Wunused-result -Wc++11-compat -Wignored-attributes -Wdangling-else -Wmisleading-indentation -Wtautological-compare -Wsuggest-override -Wmaybe-uninitialized  -Wno-unused-parameter  -fvisibility=hidden -fvisibility-inlines-hidden  -Wdeprecated-declarations -DACE_COMPILES_WITHOUT_INLINE_RELEASE -O3 -DNDEBUG    CMakeFiles/cmTC_c2a36.dir/src.cxx.o  -o cmTC_c2a36  /usr/lib/libACE.so -lpthread -lrt 
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+  #include <ace/OS_NS_unistd.h>
+  #include <ace/Time_Value.h>
+  void time_delay(double seconds) {
+      ACE_Time_Value tv;
+      tv.sec (long(seconds));
+      tv.usec (long((seconds-long(seconds)) * 1.0e6));
+      ACE_OS::sleep(tv);
+  }
+  int main(int argc, char *argv[]) {
+      time_delay(1);
+      return 0;
+  }
+  
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_61a10/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_61a10.dir/build.make CMakeFiles/cmTC_61a10.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_61a10.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE   -o CMakeFiles/cmTC_61a10.dir/CheckIncludeFile.c.o   -c /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_61a10
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61a10.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_61a10.dir/CheckIncludeFile.c.o  -o cmTC_61a10 
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3865e/fast && make[3]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_3865e.dir/build.make CMakeFiles/cmTC_3865e.dir/build
+make[4]: Entering directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3865e.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -fPIE   -o CMakeFiles/cmTC_3865e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.17/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3865e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3865e.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_3865e.dir/CheckFunctionExists.c.o  -o cmTC_3865e  -lpthread 
+make[4]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/CMakeTmp'
+
+
+

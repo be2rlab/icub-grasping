@@ -1,0 +1,8 @@
+# Target labels
+ robots-configuration
+# Source files and their labels
+/icub-grasping/robotology-superbuild/build/CMakeFiles/robots-configuration-update
+/icub-grasping/robotology-superbuild/build/CMakeFiles/robots-configuration-update.rule
+/icub-grasping/robotology-superbuild/build/robotology/robots-configuration/CMakeFiles/YCMStamp/robots-configuration-update.rule
+/icub-grasping/robotology-superbuild/build/robotology/robots-configuration/CMakeFiles/YCMStamp/robots-configuration-download.rule
+/icub-grasping/robotology-superbuild/build/robotology/robots-configuration/CMakeFiles/YCMStamp/robots-configuration-mkdir.rule

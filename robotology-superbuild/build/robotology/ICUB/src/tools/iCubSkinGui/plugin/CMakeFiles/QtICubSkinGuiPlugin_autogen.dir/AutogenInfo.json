@@ -1,0 +1,208 @@
+{
+	"BUILD_DIR" : "/icub-grasping/robotology-superbuild/build/robotology/ICUB/src/tools/iCubSkinGui/plugin/QtICubSkinGuiPlugin_autogen",
+	"CMAKE_BINARY_DIR" : "/icub-grasping/robotology-superbuild/build/robotology/ICUB",
+	"CMAKE_CURRENT_BINARY_DIR" : "/icub-grasping/robotology-superbuild/build/robotology/ICUB/src/tools/iCubSkinGui/plugin",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/icub-grasping/robotology-superbuild/robotology/ICUB/src/tools/iCubSkinGui/plugin",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_SOURCE_DIR" : "/icub-grasping/robotology-superbuild/robotology/ICUB",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"/icub-grasping/robotology-superbuild/robotology/ICUB/src/tools/iCubSkinGui/plugin/include/CER_SH_PDL.h",
+			"Mu",
+			"6YEA5652QU/moc_CER_SH_PDL.cpp"
+		],
+		[
+			"/icub-grasping/robotology-superbuild/robotology/ICUB/src/tools/iCubSkinGui/plugin/include/Fingertip.h",
+			"Mu",
+			"6YEA5652QU/moc_Fingertip.cpp"
+		],
+		[
+			"/icub-grasping/robotology-superbuild/robotology/ICUB/src/tools/iCubSkinGui/plugin/include/Fingertip2Left.h",
+			"Mu",
+			"6YEA5652QU/moc_Fingertip2Left.cpp"
+		],
+		[
+			"/icub-grasping/robotology-superbuild/robotology/ICUB/src/tools/iCubSkinGui/plugin/include/Fingertip2Right.h",
+			"Mu",
+			"6YEA5652QU/moc_Fingertip2Right.cpp"
+		],
+		[
+			"/icub-grasping/robotology-superbuild/robotology/ICUB/src/tools/iCubSkinGui/plugin/include/PalmLeft.h",
+			"Mu",
+			"6YEA5652QU/moc_PalmLeft.cpp"
+		],
+		[
+			"/icub-grasping/robotology-superbuild/robotology/ICUB/src/tools/iCubSkinGui/plugin/include/PalmRight.h",
+			"Mu",
+			"6YEA5652QU/moc_PalmRight.cpp"
+		],
+		[
+			"/icub-grasping/robotology-superbuild/robotology/ICUB/src/tools/iCubSkinGui/plugin/include/Quad16.h",
+			"Mu",
+			"6YEA5652QU/moc_Quad16.cpp"
+		],
+		[
+			"/icub-grasping/robotology-superbuild/robotology/ICUB/src/tools/iCubSkinGui/plugin/include/SkinMeshThreadCan.h",
+			"Mu",
+			"6YEA5652QU/moc_SkinMeshThreadCan.cpp"
+		],
+		[
+			"/icub-grasping/robotology-superbuild/robotology/ICUB/src/tools/iCubSkinGui/plugin/include/SkinMeshThreadPort.h",
+			"Mu",
+			"6YEA5652QU/moc_SkinMeshThreadPort.cpp"
+		],
+		[
+			"/icub-grasping/robotology-superbuild/robotology/ICUB/src/tools/iCubSkinGui/plugin/include/TouchSensor.h",
+			"Mu",
+			"6YEA5652QU/moc_TouchSensor.cpp"
+		],
+		[
+			"/icub-grasping/robotology-superbuild/robotology/ICUB/src/tools/iCubSkinGui/plugin/include/Triangle.h",
+			"Mu",
+			"6YEA5652QU/moc_Triangle.cpp"
+		],
+		[
+			"/icub-grasping/robotology-superbuild/robotology/ICUB/src/tools/iCubSkinGui/plugin/include/Triangle_10pad.h",
+			"Mu",
+			"6YEA5652QU/moc_Triangle_10pad.cpp"
+		],
+		[
+			"/icub-grasping/robotology-superbuild/robotology/ICUB/src/tools/iCubSkinGui/plugin/qticubskinguiplugin.h",
+			"Mu",
+			"EWIEGA46WW/moc_qticubskinguiplugin.cpp"
+		],
+		[
+			"/icub-grasping/robotology-superbuild/robotology/ICUB/src/tools/iCubSkinGui/plugin/qticubskinguiplugin_plugin.h",
+			"Mu",
+			"EWIEGA46WW/moc_qticubskinguiplugin_plugin.cpp"
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/icub-grasping/robotology-superbuild/build/robotology/ICUB/src/tools/iCubSkinGui/plugin/QtICubSkinGuiPlugin_autogen/include",
+	"MOC_COMPILATION_FILE" : "/icub-grasping/robotology-superbuild/build/robotology/ICUB/src/tools/iCubSkinGui/plugin/QtICubSkinGuiPlugin_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NETWORK_LIB",
+		"QT_NO_DEBUG",
+		"QT_PLUGIN",
+		"QT_QML_LIB",
+		"QT_QUICK_LIB",
+		"QtICubSkinGuiPlugin_EXPORTS",
+		"USING_DEPRECATED_UPPERCASE_YARP_OS_TARGET"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/icub-grasping/robotology-superbuild/build/robotology/ICUB/src/tools/iCubSkinGui/plugin",
+		"/icub-grasping/robotology-superbuild/robotology/ICUB/src/tools/iCubSkinGui/plugin",
+		"/icub-grasping/robotology-superbuild/build/install/include",
+		"/usr/include/x86_64-linux-gnu/qt5",
+		"/usr/include/x86_64-linux-gnu/qt5/QtQuick",
+		"/usr/include/x86_64-linux-gnu/qt5/QtQml",
+		"/usr/include/x86_64-linux-gnu/qt5/QtNetwork",
+		"/usr/include/x86_64-linux-gnu/qt5/QtCore",
+		"/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++",
+		"/usr/include/x86_64-linux-gnu/qt5/QtGui",
+		"/usr/include",
+		"/usr/include/c++/7",
+		"/usr/include/x86_64-linux-gnu/c++/7",
+		"/usr/include/c++/7/backward",
+		"/usr/lib/gcc/x86_64-linux-gnu/7/include",
+		"/usr/local/include",
+		"/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed",
+		"/usr/include/x86_64-linux-gnu"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : true,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/c++",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/icub-grasping/robotology-superbuild/build/robotology/ICUB/src/tools/iCubSkinGui/plugin/QtICubSkinGuiPlugin_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 4,
+	"PARSE_CACHE_FILE" : "/icub-grasping/robotology-superbuild/build/robotology/ICUB/src/tools/iCubSkinGui/plugin/CMakeFiles/QtICubSkinGuiPlugin_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/usr/lib/qt5/bin/moc",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 9,
+	"SETTINGS_FILE" : "/icub-grasping/robotology-superbuild/build/robotology/ICUB/src/tools/iCubSkinGui/plugin/CMakeFiles/QtICubSkinGuiPlugin_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/icub-grasping/robotology-superbuild/robotology/ICUB/src/tools/iCubSkinGui/plugin/CER_SH_PDL.cpp",
+			"Mu"
+		],
+		[
+			"/icub-grasping/robotology-superbuild/robotology/ICUB/src/tools/iCubSkinGui/plugin/Fingertip.cpp",
+			"Mu"
+		],
+		[
+			"/icub-grasping/robotology-superbuild/robotology/ICUB/src/tools/iCubSkinGui/plugin/Fingertip2Left.cpp",
+			"Mu"
+		],
+		[
+			"/icub-grasping/robotology-superbuild/robotology/ICUB/src/tools/iCubSkinGui/plugin/Fingertip2Right.cpp",
+			"Mu"
+		],
+		[
+			"/icub-grasping/robotology-superbuild/robotology/ICUB/src/tools/iCubSkinGui/plugin/PalmLeft.cpp",
+			"Mu"
+		],
+		[
+			"/icub-grasping/robotology-superbuild/robotology/ICUB/src/tools/iCubSkinGui/plugin/PalmRight.cpp",
+			"Mu"
+		],
+		[
+			"/icub-grasping/robotology-superbuild/robotology/ICUB/src/tools/iCubSkinGui/plugin/Quad16.cpp",
+			"Mu"
+		],
+		[
+			"/icub-grasping/robotology-superbuild/robotology/ICUB/src/tools/iCubSkinGui/plugin/SkinMeshThreadCan.cpp",
+			"Mu"
+		],
+		[
+			"/icub-grasping/robotology-superbuild/robotology/ICUB/src/tools/iCubSkinGui/plugin/SkinMeshThreadPort.cpp",
+			"Mu"
+		],
+		[
+			"/icub-grasping/robotology-superbuild/robotology/ICUB/src/tools/iCubSkinGui/plugin/TouchSensor.cpp",
+			"Mu"
+		],
+		[
+			"/icub-grasping/robotology-superbuild/robotology/ICUB/src/tools/iCubSkinGui/plugin/Triangle.cpp",
+			"Mu"
+		],
+		[
+			"/icub-grasping/robotology-superbuild/robotology/ICUB/src/tools/iCubSkinGui/plugin/Triangle_10pad.cpp",
+			"Mu"
+		],
+		[
+			"/icub-grasping/robotology-superbuild/robotology/ICUB/src/tools/iCubSkinGui/plugin/qticubskinguiplugin.cpp",
+			"Mu"
+		],
+		[
+			"/icub-grasping/robotology-superbuild/robotology/ICUB/src/tools/iCubSkinGui/plugin/qticubskinguiplugin_plugin.cpp",
+			"Mu"
+		]
+	],
+	"VERBOSITY" : 0
+}

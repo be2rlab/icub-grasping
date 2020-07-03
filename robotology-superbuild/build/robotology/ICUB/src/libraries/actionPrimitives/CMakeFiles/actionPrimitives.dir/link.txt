@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../lib/libactionPrimitives.a  CMakeFiles/actionPrimitives.dir/src/actionPrimitives.cpp.o
+/usr/bin/ranlib ../../../lib/libactionPrimitives.a

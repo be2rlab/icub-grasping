@@ -1,0 +1,3 @@
+repository='https://github.com/robotology/icub-models.git'
+module=''
+tag='origin'

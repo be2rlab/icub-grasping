@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/icub-grasping/robotology-superbuild/build/robotology/YARP/src/devices/yarp_yarpmod_plugin_library.cpp
+yarp/conf/api.h
+-
+
+src/libYARP_conf/src/yarp/conf/api.h
+yarp/conf/compiler.h
+-
+yarp/conf/system.h
+-
+yarp/conf/api.h
+-
+
+src/libYARP_conf/src/yarp/conf/compiler.h
+
+src/libYARP_conf/src/yarp/conf/system.h
+

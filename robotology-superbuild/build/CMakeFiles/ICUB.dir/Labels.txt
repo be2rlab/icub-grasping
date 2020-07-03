@@ -1,0 +1,13 @@
+# Target labels
+ ICUB
+# Source files and their labels
+/icub-grasping/robotology-superbuild/build/CMakeFiles/ICUB
+/icub-grasping/robotology-superbuild/build/CMakeFiles/ICUB.rule
+/icub-grasping/robotology-superbuild/build/CMakeFiles/ICUB-complete.rule
+/icub-grasping/robotology-superbuild/build/robotology/ICUB/CMakeFiles/YCMStamp/ICUB-install.rule
+/icub-grasping/robotology-superbuild/build/robotology/ICUB/CMakeFiles/YCMStamp/ICUB-mkdir.rule
+/icub-grasping/robotology-superbuild/build/robotology/ICUB/CMakeFiles/YCMStamp/ICUB-download.rule
+/icub-grasping/robotology-superbuild/build/robotology/ICUB/CMakeFiles/YCMStamp/ICUB-patch.rule
+/icub-grasping/robotology-superbuild/build/robotology/ICUB/CMakeFiles/YCMStamp/ICUB-configure.rule
+/icub-grasping/robotology-superbuild/build/robotology/ICUB/CMakeFiles/YCMStamp/ICUB-build.rule
+/icub-grasping/robotology-superbuild/build/robotology/ICUB/CMakeFiles/YCMStamp/ICUB-skip-update.rule

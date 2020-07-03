@@ -1,0 +1,11 @@
+set(YARP_idl_tools_VERSION @PACKAGE_VERSION@)
+
+@PACKAGE_INIT@
+
+@PACKAGE_DEPENDENCIES@
+
+include("${CMAKE_CURRENT_LIST_DIR}/YARP_idl_toolsTargets.cmake")
+
+
+
+@INCLUDED_CONTENT@

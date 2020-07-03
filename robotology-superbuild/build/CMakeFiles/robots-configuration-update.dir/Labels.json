@@ -1,0 +1,28 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/icub-grasping/robotology-superbuild/build/CMakeFiles/robots-configuration-update"
+		},
+		{
+			"file" : "/icub-grasping/robotology-superbuild/build/CMakeFiles/robots-configuration-update.rule"
+		},
+		{
+			"file" : "/icub-grasping/robotology-superbuild/build/robotology/robots-configuration/CMakeFiles/YCMStamp/robots-configuration-update.rule"
+		},
+		{
+			"file" : "/icub-grasping/robotology-superbuild/build/robotology/robots-configuration/CMakeFiles/YCMStamp/robots-configuration-download.rule"
+		},
+		{
+			"file" : "/icub-grasping/robotology-superbuild/build/robotology/robots-configuration/CMakeFiles/YCMStamp/robots-configuration-mkdir.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"robots-configuration"
+		],
+		"name" : "robots-configuration-update"
+	}
+}

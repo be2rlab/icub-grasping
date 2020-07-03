@@ -1,0 +1,13 @@
+set(GazeboYARPPlugins_VERSION @GazeboYARPPlugins_VERSION@)
+
+@PACKAGE_INIT@
+
+set(GazeboYARPPlugins_INCLUDEDIR "@PACKAGE_GazeboYARPPlugins_INCLUDEDIR@")
+
+if(NOT TARGET GazeboYARPPlugins::gazebo_yarp_rpc_clock)
+  include("${CMAKE_CURRENT_LIST_DIR}/GazeboYARPPluginsTargets.cmake")
+endif()
+
+# Compatibility
+set(GazeboYARPPlugins_LIBRARIES GazeboYARPPlugins::gazebo_yarp_rpc_clock;GazeboYARPPlugins::gazebo_yarp_rpc_worldinterface;GazeboYARPPlugins::gazebo_yarp_rpc_linkattacher)
+set(GazeboYARPPlugins_INCLUDE_DIRS ${GazeboYARPPlugins_INCLUDEDIR})

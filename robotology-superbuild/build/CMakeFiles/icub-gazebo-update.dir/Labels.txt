@@ -1,0 +1,8 @@
+# Target labels
+ icub-gazebo
+# Source files and their labels
+/icub-grasping/robotology-superbuild/build/CMakeFiles/icub-gazebo-update
+/icub-grasping/robotology-superbuild/build/CMakeFiles/icub-gazebo-update.rule
+/icub-grasping/robotology-superbuild/build/robotology/icub-gazebo/CMakeFiles/YCMStamp/icub-gazebo-update.rule
+/icub-grasping/robotology-superbuild/build/robotology/icub-gazebo/CMakeFiles/YCMStamp/icub-gazebo-download.rule
+/icub-grasping/robotology-superbuild/build/robotology/icub-gazebo/CMakeFiles/YCMStamp/icub-gazebo-mkdir.rule
