@@ -1,2 +1,0 @@
-/usr/bin/ar qc ../../../lib/liboptimization.a  CMakeFiles/optimization.dir/src/algorithms.cpp.o CMakeFiles/optimization.dir/src/calibReference.cpp.o CMakeFiles/optimization.dir/src/affinity.cpp.o CMakeFiles/optimization.dir/src/neuralNetworks.cpp.o
-/usr/bin/ranlib ../../../lib/liboptimization.a

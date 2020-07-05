@@ -1,3 +1,0 @@
-repository='https://github.com/robotology/icub-gazebo.git'
-module=''
-tag='origin'

@@ -1,3 +1,0 @@
-repository='https://github.com/robotology/yarp.git'
-module=''
-tag='origin'

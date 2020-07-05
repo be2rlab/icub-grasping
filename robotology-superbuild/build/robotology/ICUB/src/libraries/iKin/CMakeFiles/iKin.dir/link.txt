@@ -1,2 +1,0 @@
-/usr/bin/ar qc ../../../lib/libiKin.a  CMakeFiles/iKin.dir/src/iKinFwd.cpp.o CMakeFiles/iKin.dir/src/iKinInv.cpp.o CMakeFiles/iKin.dir/src/iKinHlp.cpp.o CMakeFiles/iKin.dir/src/iKinIpOpt.cpp.o CMakeFiles/iKin.dir/src/iKinSlv.cpp.o
-/usr/bin/ranlib ../../../lib/libiKin.a

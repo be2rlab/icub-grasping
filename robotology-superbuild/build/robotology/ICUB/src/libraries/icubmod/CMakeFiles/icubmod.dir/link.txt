@@ -1,2 +1,0 @@
-/usr/bin/ar qc ../../../lib/libicubmod.a  CMakeFiles/icubmod.dir/yarp_icubmod_plugin_library.cpp.o
-/usr/bin/ranlib ../../../lib/libicubmod.a

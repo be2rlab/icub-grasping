@@ -1,8 +1,0 @@
-# Target labels
- YARP
-# Source files and their labels
-/icub-grasping/robotology-superbuild/build/CMakeFiles/YARP-update
-/icub-grasping/robotology-superbuild/build/CMakeFiles/YARP-update.rule
-/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/YCMStamp/YARP-update.rule
-/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/YCMStamp/YARP-download.rule
-/icub-grasping/robotology-superbuild/build/robotology/YARP/CMakeFiles/YCMStamp/YARP-mkdir.rule

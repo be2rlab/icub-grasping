@@ -1,1 +1,0 @@
-cmd='/usr/bin/cmake;--no-warn-unused-cli;-DCMAKE_PREFIX_PATH:PATH=/icub-grasping/robotology-superbuild/build/install|/opt/ros/melodic;-DGAZEBO_YARP_PLUGINS_HAS_OPENCV:BOOL=OFF;-C<TMP_DIR>/GazeboYARPPlugins-cache-$<CONFIG>.cmake;-GUnix Makefiles;<SOURCE_DIR><SOURCE_SUBDIR>'

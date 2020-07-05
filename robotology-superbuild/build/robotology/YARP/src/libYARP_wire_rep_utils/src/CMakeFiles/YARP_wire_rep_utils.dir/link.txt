@@ -1,2 +1,0 @@
-/usr/bin/ar qc ../../../lib/libYARP_wire_rep_utils.a  CMakeFiles/YARP_wire_rep_utils.dir/yarp/wire_rep_utils/WireImage.cpp.o CMakeFiles/YARP_wire_rep_utils.dir/yarp/wire_rep_utils/WireBottle.cpp.o CMakeFiles/YARP_wire_rep_utils.dir/yarp/wire_rep_utils/WireTwiddler.cpp.o
-/usr/bin/ranlib ../../../lib/libYARP_wire_rep_utils.a

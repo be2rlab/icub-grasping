@@ -1,3 +1,0 @@
-repository='https://github.com/robotology/icub-contrib-common.git'
-module=''
-tag='origin'

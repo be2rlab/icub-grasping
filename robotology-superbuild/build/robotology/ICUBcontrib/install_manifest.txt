@@ -1,7 +1,0 @@
-/icub-grasping/robotology-superbuild/build/install/share/yarp/config/path.d/ICUBcontrib.ini
-/icub-grasping/robotology-superbuild/build/install/share/ICUBcontrib/plugins/ICUBcontrib.ini
-/icub-grasping/robotology-superbuild/build/install/lib/ICUBcontrib/ICUBcontribConfig.cmake
-/icub-grasping/robotology-superbuild/build/install/share/ICUBcontrib/cmake/ICUBcontribHelpers.cmake
-/icub-grasping/robotology-superbuild/build/install/share/ICUBcontrib/cmake/ICUBcontribOptions.cmake
-/icub-grasping/robotology-superbuild/build/install/share/ICUBcontrib/cmake/templates/icubcontrib-config-install.cmake.in
-/icub-grasping/robotology-superbuild/build/install/share/ICUBcontrib/cmake/templates/icubcontrib-config-uninstall.cmake.in

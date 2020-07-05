@@ -1,8 +1,0 @@
-# Target labels
- ICUBcontrib
-# Source files and their labels
-/icub-grasping/robotology-superbuild/build/CMakeFiles/ICUBcontrib-update
-/icub-grasping/robotology-superbuild/build/CMakeFiles/ICUBcontrib-update.rule
-/icub-grasping/robotology-superbuild/build/robotology/ICUBcontrib/CMakeFiles/YCMStamp/ICUBcontrib-update.rule
-/icub-grasping/robotology-superbuild/build/robotology/ICUBcontrib/CMakeFiles/YCMStamp/ICUBcontrib-download.rule
-/icub-grasping/robotology-superbuild/build/robotology/ICUBcontrib/CMakeFiles/YCMStamp/ICUBcontrib-mkdir.rule

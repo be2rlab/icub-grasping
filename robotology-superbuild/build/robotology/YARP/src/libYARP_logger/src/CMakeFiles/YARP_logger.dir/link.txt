@@ -1,2 +1,0 @@
-/usr/bin/ar qc ../../../lib/libYARP_logger.a  CMakeFiles/YARP_logger.dir/yarp/logger/YarpLogger.cpp.o
-/usr/bin/ranlib ../../../lib/libYARP_logger.a

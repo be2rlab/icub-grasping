@@ -35,6 +35,8 @@ else
                 -e XAUTHORITY \
                 -v /dev:/dev \
                 -v /home/$USER/icub_ws/icub-grasping/:/icub-grasping \
+                -v /home/$USER/matlab/:/matlab \
+                -e Matlab_ROOT_DIR=/matlab \
                 -e ROS_IP=${HOST_IP} \
                 -e ROS_MASTER_URI=http://${HOST_IP}:11311 \
                --net=host \
