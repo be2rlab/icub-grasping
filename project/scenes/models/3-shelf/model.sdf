@@ -1,0 +1,195 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="3-shalf">
+    <static>true</static>
+    <link name="link">
+      <collision name="shalf1">
+        <!-- x y z  -->
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>2 1 0.05</size>
+          </box>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.6</mu>
+              <mu2>0.6</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="shalf1_visual">
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>2 1 0.05</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Silver</name>
+          </script>
+        </material>
+      </visual>
+      <collision name="shalf2">
+        <!-- x y z  -->
+        <pose>0 0 0.8 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>2 1 0.05</size>
+          </box>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.6</mu>
+              <mu2>0.6</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="shalf2_visual">
+        <pose>0 0 0.8 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>2 1 0.05</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Silver</name>
+          </script>
+        </material>
+      </visual>
+      <collision name="shalf3">
+        <!-- x y z  -->
+        <pose>0 0 1.6 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>2 1 0.05</size>
+          </box>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.6</mu>
+              <mu2>0.6</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="shalf3_visual">
+        <pose>0 0 1.6 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>2 1 0.05</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Silver</name>
+          </script>
+        </material>
+      </visual>
+      <collision name="shalf4">
+        <!-- x y z  -->
+        <pose>0 0 2.4 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>2 1 0.05</size>
+          </box>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.6</mu>
+              <mu2>0.6</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="shalf4_visual">
+        <pose>0 0 2.4 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>2 1 0.05</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Silver</name>
+          </script>
+        </material>
+      </visual>
+      <collision name="shafl_leg1">
+        <!-- x y z  -->
+        <pose>-1 0 1.2 0 0 1.57</pose>
+        <geometry>
+          <box>
+            <size>1 0.01 2.45</size>
+          </box>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.6</mu>
+              <mu2>0.6</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="shafl_leg1_visual">
+        <pose>-1 0 1.2 0 0 1.57</pose>
+        <geometry>
+          <box>
+            <size>1 0.01 2.45</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Silver</name>
+          </script>
+        </material>
+      </visual>
+      <collision name="shafl_leg2">
+        <!-- x y z  -->
+        <pose>1 0 1.2 0 0 1.57</pose>
+        <geometry>
+          <box>
+            <size>1 0.01 2.45</size>
+          </box>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.6</mu>
+              <mu2>0.6</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="shafl_leg2_visual">
+        <pose>1 0 1.2 0 0 1.57</pose>
+        <geometry>
+          <box>
+            <size>1 0.01 2.45</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Silver</name>
+          </script>
+        </material>
+      </visual>
+
+    </link>
+  </model>
+</sdf>
