@@ -99,6 +99,7 @@ RUN pip3 install tensorflow
 RUN pip3 install opencv-python
 RUN pip3 install object_detection
 RUN pip3 install tf-object-detection
+RUN pip3 install dnn
 
 RUN echo "source /icub-grasping/robotology-superbuild/build/install/share/robotology-superbuild/setup.sh" >> /root/.bashrc
 RUN echo "source /opt/ros/melodic/setup.bash" >> /root/.bashrc

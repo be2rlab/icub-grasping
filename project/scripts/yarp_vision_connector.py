@@ -2,7 +2,7 @@
 import numpy
 import yarp
 
-import vision
+import mobilenet_ssd_vision
 
 yarp.Network.init()
 
@@ -11,7 +11,7 @@ class VisionConnector:
     
     def __init__(self, input_port_name, output_port_name):
         print("[CLASSIFICATOR] Start init")
-        self._classificator = vision.Vision()
+        self._classificator = mobilenet_ssd_vision.Vision()
         print("[CLASSIFICATOR] Stop init")
 
         self.image_w = 640
@@ -55,8 +55,9 @@ class VisionConnector:
 
             # Finding objects
             # TODO returns list of objects and its positions in the images space
-            self._classificator.process_frame(self._input_buf_array)
-
+            catid, info = self._classificator.process_frame(self._input_buf_array)
+            print(catid, info)
+            
             # Send the result to the output port
             self._output_buf_array[:,:] = self._input_buf_array
             self._output_port.write(self._output_buf_image)
@@ -78,7 +79,8 @@ if __name__=="__main__":
     
     try:
         assert yarp.Network.connect("/frame:out", "/view01")
-        assert yarp.Network.connect("/camera:o", "/frame:in")
+        #assert yarp.Network.connect("/camera:o", "/frame:in")
+        assert yarp.Network.connect("/icubSim/cam/left", "/frame:in")
         
         con.run()
     finally:
