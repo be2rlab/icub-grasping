@@ -94,8 +94,11 @@ RUN git config --global user.name human && git config --global user.email human@
 RUN apt-add-repository ppa:dartsim/ppa && apt-get update && apt-get install -y libdart6-all-dev libtinyxml2-dev liburdfdom-dev \
     libxi-dev libxmu-dev freeglut3-dev libopenscenegraph-dev 
 
-## for matlab    
-# RUN apt-get update && apt-get install -y default-jdk swig
+RUN apt-get update && apt-get install -y python3-pip
+RUN pip3 install tensorflow
+RUN pip3 install opencv-python
+RUN pip3 install object_detection
+RUN pip3 install tf-object-detection
 
 RUN echo "source /icub-grasping/robotology-superbuild/build/install/share/robotology-superbuild/setup.sh" >> /root/.bashrc
 RUN echo "source /opt/ros/melodic/setup.bash" >> /root/.bashrc
