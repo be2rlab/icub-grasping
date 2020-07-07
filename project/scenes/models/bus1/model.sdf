@@ -6,7 +6,7 @@
       <collision name="collision">
         <geometry>
           <mesh>
-            <scale>0.06 0.06 0.06</scale>
+            <scale>0.13 0.13 0.13</scale>
             <uri>model://bus1/meshes/model.dae</uri>
           </mesh>
         </geometry>
@@ -14,7 +14,7 @@
       <visual name="visual">
         <geometry>
           <mesh>
-            <scale>0.06 0.06 0.06</scale>
+            <scale>0.13 0.13 0.13</scale>
             <uri>model://bus1/meshes/model.dae</uri>
           </mesh>
         </geometry>

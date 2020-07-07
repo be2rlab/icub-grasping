@@ -1,21 +1,21 @@
 <?xml version="1.0" ?>
 <sdf version="1.6">
-  <model name="car">
+  <model name="bottle1">
     <static>true</static>
     <link name="link">
       <collision name="collision">
         <geometry>
           <mesh>
-            <scale>0.2 0.2 0.2</scale>
-            <uri>model://car/meshes/model.dae</uri>
+            <scale>4.8 4.8 4.8</scale>
+            <uri>model://bottle1/meshes/model.dae</uri>
           </mesh>
         </geometry>
       </collision>
       <visual name="visual">
         <geometry>
           <mesh>
-            <scale>0.2 0.2 0.2</scale>
-            <uri>model://car/meshes/model.dae</uri>
+            <scale>4.8 4.8 4.8</scale>
+            <uri>model://bottle1/meshes/model.dae</uri>
           </mesh>
         </geometry>
       </visual>

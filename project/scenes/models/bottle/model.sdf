@@ -6,7 +6,7 @@
       <collision name="collision">
         <geometry>
           <mesh>
-            <scale>2 2 2</scale>
+            <scale>3 3 3</scale>
             <uri>model://bottle/meshes/model.dae</uri>
           </mesh>
         </geometry>
@@ -14,7 +14,7 @@
       <visual name="visual">
         <geometry>
           <mesh>
-            <scale>2 2 2</scale>
+            <scale>3 3 3</scale>
             <uri>model://bottle/meshes/model.dae</uri>
           </mesh>
         </geometry>
