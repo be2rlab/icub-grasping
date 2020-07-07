@@ -39,10 +39,8 @@ class Vision:
     
     
     def process_frame(self, frame):    
-        label = ''
-        (xLeftBottom, yLeftBottom, xRightTop, yRightTop) = 0, 0, 0, 0
-        
-        
+    
+
         frame_resized = cv2.resize(frame,(300,300)) # resize frame for prediction
         # MobileNet requires fixed dimensions for input image(s)
         # so we have to ensure that it is resized to 300x300 pixels.
@@ -87,7 +85,6 @@ class Vision:
                               (0, 255, 0))
 
                 # Draw label and confidence of prediction in frame resized
-
                 if class_id in classNames:
                     label = classNames[class_id] + ": " + str(confidence)
                     labelSize, baseLine = cv2.getTextSize(label, cv2.FONT_HERSHEY_SIMPLEX, 0.5, 1)
@@ -99,14 +96,67 @@ class Vision:
                     cv2.putText(frame, label, (xLeftBottom, yLeftBottom),
                                 cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 0))
 
-                    
+                         
                 
         return label, (xLeftBottom, yLeftBottom, xRightTop, yRightTop)
 
-        #cv2.namedWindow("frame", cv2.WINDOW_NORMAL)
-        #cv2.imshow("frame", frame)
+        cv2.namedWindow("frame", cv2.WINDOW_NORMAL)
+        cv2.imshow("frame", frame)
         
 
+class Trian:
+     
+    module_name = '[Trian]: ' 
+    
+    #на вход класс, изображения с камер, положение камер по х,у, 
+    #ориентация одной камеры вдоль х(угол эйлера)
+    
+    def coor(label, imgL, imgR, ori, x_pos_L, y_pos_L, x_pos_R, y_pos_R):      
+        classificator = Vision()    
+        
+        label, cL = classificator.proccess_frame(imgL)
+        label, cR = classificator.proccess_frame(imgR)
+        
+        x_pos = x_pos_R - x_pos_L
+        y_pos = y_pos_R - y_pos_L
+        
+        # distance between cameras
+        C = 0.068
+        # camera height above ground
+        H = 1.3408
+        
+        cXL = imgL[2] - imgL[0]
+        cYL = imgL[3] - imgL[1]
+    
+        cXR = imgR[2] - imgR[0]
+        
+         
+        #get angles
+        alpha = np.pi/2 + np.pi/12 - (np.pi/6)*cXL/300
+        beta = np.pi/2 + np.pi/12 - np.pi/6 + (np.pi/4)*cXR/300
+        gamma = np.pi - (alpha + beta)
+        
+        #find perimeter via theorem of sines
+        A = C * np.sin(alpha)/np.sin(gamma)
+        B = C * np.sin(beta)/np.sin(gamma)
+        P = 1/2*(A + B + C)
+        # get distance to object
+        h_c = 2/C * np.sqrt(P*(P-A)*(P-B)*(P-C))
+        l = 1/2 * np.sqrt(A**2+B**2+2*A*B*np.cos(gamma))
+        
+        
+        # get angles 
+        al = np.pi/12 - (np.pi/6)*cYL/300
+        be = np.pi/2 - al
+        d = h_c*np.sin(al)/np.sin(be)
+        
+        #get coordinates
+        x = x_pos + np.cos(ori)*l
+        y = y_pos + np.sin(ori)*l
+        z = H - d
+        
+        return x,y,z
+    
 
 if __name__ == "__main__":
     
@@ -128,4 +178,4 @@ if __name__ == "__main__":
     # Find any objects in the frame
         catid, info = classificator.process_frame(frame)
 
-        print(catid, info)
+        print(catid, info[1])
