@@ -124,9 +124,11 @@ class Trian:
         	y_pos = y_pos_R - y_pos_L
         
         	# distance between cameras
-        	C = 0.068
+        	C = 0.049
         	# camera height above ground
-        	H = 1.3408
+        	H = 0.92
+            # hand lenght
+            L = 0.427
         	
         	cXL = (imgL[2] - imgL[0])/2
         	cYL = (imgL[3] - imgL[1])/2
@@ -157,8 +159,15 @@ class Trian:
         	x = x_pos + np.cos(ori)*l
         	y = y_pos + np.sin(ori)*l
         	z = H - d
+            
+            # get new coordinates
+            a = L/np.sqrt(l**2+d**2)
+            
+            x1 = a*(x-x_pos)+x_pos
+            y1 = a*(y-y_pos)+y_pos
+            z1 = a*(z-H)+H
         
-        	return x,y,z
+        	return x1,y1,z1
     
 
 if __name__ == "__main__":
