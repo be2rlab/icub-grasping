@@ -151,7 +151,7 @@ class Trian:
         
         
         	# get angles 
-        	al = np.pi/12 - (np.pi/6)*cYL/640
+        	al = np.pi/12 - (np.pi/6)*cYL/480
         	be = np.pi/2 - al
         	d = h_c*np.sin(al)/np.sin(be)
         
