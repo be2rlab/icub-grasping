@@ -128,10 +128,10 @@ class Trian:
         	# camera height above ground
         	H = 1.3408
         	
-        	cXL = imgL[2] - imgL[0]
-        	cYL = imgL[3] - imgL[1]
+        	cXL = (imgL[2] - imgL[0])/2
+        	cYL = (imgL[3] - imgL[1])/2
     	
-        	cXR = imgR[2] - imgR[0]
+        	cXR = (imgR[2] - imgR[0])/2
         	
         	 
         	#get angles
