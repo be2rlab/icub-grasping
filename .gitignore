@@ -1,4 +1,5 @@
 *~
-.pyc
-robotology-superbuild/*
+.*
+robotology-superbuild
 build
+__*__
