@@ -123,7 +123,7 @@ class Trian:
 
 	        x_pos = x_pos_R - x_pos_L
         	y_pos = y_pos_R - y_pos_L
-            
+        	
         
         	# distance between cameras
         	C = 0.049
@@ -193,7 +193,10 @@ if __name__ == "__main__":
     
     # Find any objects in the frame
         catid, info = classificator.process_frame(frame)
+        label = 'person'
         
-        x,y,z = pos.coor('Person', frame, frame1,  0, 0, 0, 0, 0)
 
         print(catid, info)
+        
+        x,y,z = pos.coor(label, frame, frame1,  1, 1, 1, 1, 1)
+        print(x,y,z)
