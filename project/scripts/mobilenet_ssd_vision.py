@@ -135,8 +135,8 @@ class Trian:
         	
         	 
         	#get angles
-        	alpha = np.pi/2 + np.pi/12 - (np.pi/6)*cXL/300
-        	beta = np.pi/2 + np.pi/12 - np.pi/6 + (np.pi/4)*cXR/300
+        	alpha = np.pi/2 + np.pi/12 - (np.pi/6)*cXL/640
+        	beta = np.pi/2 + np.pi/12 - np.pi/6 + (np.pi/4)*cXR/640
         	gamma = np.pi - (alpha + beta)
         
         	#find perimeter via theorem of sines
@@ -149,7 +149,7 @@ class Trian:
         
         
         	# get angles 
-        	al = np.pi/12 - (np.pi/6)*cYL/300
+        	al = np.pi/12 - (np.pi/6)*cYL/640
         	be = np.pi/2 - al
         	d = h_c*np.sin(al)/np.sin(be)
         
