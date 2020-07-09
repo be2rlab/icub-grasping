@@ -34,6 +34,17 @@ bool LeftArmThread::threadInit()
   xd.resize(3);
   od.resize(4);
 
+  // initial
+  xd[0] = -0.3;
+  xd[1] = -0.2;
+  xd[2] = -0.2;
+
+  od[0] = 0.0;
+  od[1] = 0.0;
+  od[2] = 1.0;
+  od[3] = M_PI;
+
+
   yInfo() << "Thread started successfully";
   t = t0 = t1 = yarp::os::Time::now();
 
@@ -48,7 +59,7 @@ void LeftArmThread::run()
 
   arm->goToPose(xd, od);
 
-  printStatus(); // TODO make status in separate structure
+  // printStatus(); // TODO make status in separate structure
 }
 
 void LeftArmThread::threadRelease()

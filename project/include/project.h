@@ -5,6 +5,7 @@
 
 #include <cstdlib>
 #include <cmath>
+#include <iostream>
 
 #include <yarp/os/Network.h>
 #include <yarp/os/RFModule.h>

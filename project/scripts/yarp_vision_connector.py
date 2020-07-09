@@ -15,8 +15,8 @@ class VisionConnector:
         print("[CLASSIFICATOR] Stop init")
 
         self._position_est = mobilenet_ssd_vision.Trian()
-        self._cartesian_goal_port = yarp.Port()
-        self._cartesian_goal_port.open("/left_arm_goal")
+        self._cartesian_goal_port = yarp.BufferedPortBottle()
+        self._cartesian_goal_port.open("/left_arm_goal_write")
 
 
         self.image_w = 640
@@ -78,8 +78,18 @@ class VisionConnector:
 
     def run(self):
 
-        i = 0
+        count = 99
+        obj = 'init'
         while True:
+            # print(count)
+            if count > 1:
+                if count > 2:
+                    count = 0
+                    obj = input('Select object [car, bottle, bus]: ')
+                else:
+                    obj = 'init'
+            count = count + 1
+
             # Read an image from the port
             self._left_input_port.read(self._left_input_buf_image)
             self._right_input_port.read(self._right_input_buf_image)
@@ -94,16 +104,15 @@ class VisionConnector:
             # Finding objects
             # TODO returns list of objects and its positions in the images space
             label, info = self._classificator.process_frame(
-                self._left_input_buf_array)
-            print(label, info)
-
-            # set goal for left arm cartesian controller
-            x, y, z = self._position_est.coor(label, self._left_input_buf_array, self._right_input_buf_array)
-            print('+++++++++')
-            print(x,y,z)
+                self._left_input_buf_array, obj)
+            # print(label, info)
             
-            #pose_bottle = self._cartesian_goal_port.Prepare()
-            pose_bottle = yarp.Bottle()
+            # set goal for left arm cartesian controller
+            # x, y, z = self._position_est.coor(obj, self._left_input_buf_array, self._right_input_buf_array)
+            x, y, z = self._position_est.simple_coor(obj, self._left_input_buf_array, self._right_input_buf_array)
+            
+            pose_bottle = self._cartesian_goal_port.prepare()
+            pose_bottle.clear()
             pose_bottle.addDouble(x)
             pose_bottle.addDouble(y)
             pose_bottle.addDouble(z)
@@ -111,8 +120,8 @@ class VisionConnector:
             pose_bottle.addDouble(0)
             pose_bottle.addDouble(1)
             pose_bottle.addDouble(3.14)
-            print("Sending goal: {}".format(pose_bottle.toString()))
-            self._cartesian_goal_port.write(pose_bottle)
+            # print("Sending goal: {}\n".format(pose_bottle.toString()))
+            self._cartesian_goal_port.write(False)
 
             # Send the result to the output port
             self._left_output_buf_array[:, :] = self._left_input_buf_array
@@ -121,7 +130,7 @@ class VisionConnector:
             self._right_output_buf_array[:, :] = self._right_input_buf_array
             self._right_output_port.write(self._right_output_buf_image)
 
-            yarp.delay(0.1) # TODO think about it
+            yarp.delay(2) # TODO think about it
 
     def cleanup(self):
         self._left_input_port.close()
@@ -135,7 +144,7 @@ class VisionConnector:
 if __name__ == "__main__":
     """
         input is /icubSim/cam/{left or right}
-        output ??
+        output
             - objects in image space
             - /view01
     """
@@ -148,6 +157,9 @@ if __name__ == "__main__":
 
         assert yarp.Network.connect("/rframe:out", "/rview01")
         assert yarp.Network.connect("/icubSim/cam/right", "/rframe:in")
+
+        # connection between cv node and arm cartesian controller
+        assert yarp.Network.connect("/left_arm_goal_write", "/left_arm_goal_read")
 
         con.run()
     finally:

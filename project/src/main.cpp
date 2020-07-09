@@ -1,10 +1,15 @@
 // ## How to run?
 //
 // ```
+// $ yarpserver 
 // $ gazebo /icub-grasping/project/scenes/demo_day.world
+// $ yarpview --name /lview01
+// $ yarpview --name /rview01
 // $ yarprobotinterface --context simCartesianControl
 // $ iKinCartesianSolver --context simCartesianControl --part left_arm
 // $ iKinCartesianSolver --context simCartesianControl --part right_arm
+// $ /icub-grasping/project/build/bin/demo_day_july
+// $ python3 /icub-grasping/project/scripts/yarp_vision_connector.py
 // ```
 //
 
@@ -13,14 +18,12 @@
 class CtrlModule : public yarp::os::RFModule
 {
 protected:
-  // yarp::os::RpcServer left_arm_rpc_port;
-  // yarp::os::RpcServer right_arm_rpc_port;
-  yarp::os::Port left_arm_port;
-  // yarp::os::Port right_arm_port;
-  // yarp::os::Port head_port;
+  yarp::os::BufferedPort<yarp::os::Bottle> left_arm_port;
+  // yarp::os::BufferedPort<yarp::os::Bottle> right_arm_port;
+  // yarp::os::BufferedPort<yarp::os::Bottle> head_port;
 
   LeftArmThread left_arm_thr;
-  RightArmThread right_arm_thr;
+  RightArmThread right_arm_thr; // here it used just for move right arm away from a camera
 
   double period;
 
@@ -38,7 +41,7 @@ public:
   virtual bool configure(yarp::os::ResourceFinder &rf)
   {
     //left_arm_rpc_port.open(LEFT_ARM_PORT_NAME);
-    left_arm_port.open("/left_arm_goal");
+    left_arm_port.open("/left_arm_goal_read");
 
     // retrieve command line options
     period = rf.check("period", yarp::os::Value(CTRL_THREAD_PER)).asDouble();
@@ -66,62 +69,36 @@ public:
   {
     yarp::sig::Vector xd;
     yarp::sig::Vector od;
+    xd.resize(3);
+    od.resize(4);
 
-    yarp::os::Bottle pose; // [x y z  i j k theta]
-    pose.clear();
-    left_arm_port.read(pose);
+    // [x y z  i j k theta]
+    yarp::os::Bottle* pose = left_arm_port.read(false);
 
-    // parse bottle msg
-    // and log it
-    for (int i = 0; i < 7; ++i)
-    {
-      yarp::os::Value value = pose.get(i);
-      if (value.isDouble())
+    if (pose != NULL) {
+      cout << "I got pose and it is " << pose->toString() << endl;
+
+      // parse bottle msg
+      for (int i = 0; i < 7; ++i)
       {
-        if (i < 3)
+        yarp::os::Value value = pose->get(i);
+        if (value.isDouble())
         {
-          xd[i] = value.asDouble();
-        }
-        else
-        {
-          od[i - 3] = value.asDouble();
+          if (i < 3)
+          {
+            xd[i] = value.asDouble();
+            // cout << xd[i] << endl;
+          }
+          else
+          {
+            //od[i - 3] = value.asDouble();   // don't use orientation now
+          }
         }
       }
-    }
-
-    // set command as a goal for Cartesian Controller
-    left_arm_thr.setGoal(xd, od);
-
-    // RPC server
-    // TODO Was changed in mind yet. Implement it for manual 
-    // cartesian control
-
-    // printf("Waiting for a message...\n");
-    // yarp::os::Bottle cmd;
-    // yarp::os::Bottle response;
-    // left_arm_rpc_port.read(cmd);  // cmd is [x y z  i j k theta]
-
-    // // TODO Add check for data types while parsing
-    // // TODO Add check if init values or if commadn was resieved
-    // // TODO don't need blocked read?
-    // // parse command
-    // yarp::sig::Vector xd;
-    // yarp::sig::Vector od;
-
-    // for (int i = 0; i < 4; ++i) {
-    //   od[i] = cmd.get(i + 3).asDouble();
-    //   if (i < 3) {
-    //     xd[i] = cmd.get(i).asDouble();
-    //   }
-    // }
-
-    // // set command as a goal for Cartesian Controller
-    // left_arm_thr.setGoal(xd, od);
-
-    // //response.addString("[ok]");
-    // //response.append(cmd);
-    // //left_arm_rpc_port.reply(response);
-
+      // set command as a goal for Cartesian Controller
+      left_arm_thr.setGoal(xd, od);
+    } 
+ 
     return true;
   }
 };

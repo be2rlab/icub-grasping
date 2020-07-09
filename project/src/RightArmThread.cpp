@@ -44,10 +44,11 @@ void RightArmThread::run()
 {
   t = yarp::os::Time::now();
 
-  generateTargetCreepy();
+  // generateTargetCreepy();
+  setGoal();
   arm->goToPose(xd, od);
 
-  printStatus(); // TODO make status in separate structure
+  // printStatus(); // TODO make status in separate structure
 }
 
 void RightArmThread::threadRelease()
@@ -64,6 +65,19 @@ void RightArmThread::generateTargetCreepy()
   xd[0] = -0.3;
   xd[1] = +0.1 + 0.1 * cos(2.0 * M_PI * 0.1 * (t - t0));
   xd[2] = -0.1 + 0.1 * sin(2.0 * M_PI * 0.1 * (t - t0) + M_PI / 2);
+
+  od[0] = 0.0;
+  od[1] = 0.0;
+  od[2] = 1.0;
+  od[3] = M_PI;
+}
+
+void RightArmThread::setGoal()
+{
+  // just from sample-0.1, -0.1, -0.2
+  xd[0] = -0.1;
+  xd[1] = 0.1;
+  xd[2] = -0.2;
 
   od[0] = 0.0;
   od[1] = 0.0;
