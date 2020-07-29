@@ -35,6 +35,6 @@ if [[ $1 = "--nvidia" ]] || [[ $1 = "-n" ]]
       curl -s -L https://nvidia.github.io/nvidia-docker/gpgkey | sudo apt-key add -
       curl -s -L https://nvidia.github.io/nvidia-docker/$distribution/nvidia-docker.list | sudo tee /etc/apt/sources.list.d/nvidia-docker.list
 
-      sudo apt-get update && sudo apt-get install -y nvidia-container-toolkit
+      sudo apt-get update && sudo apt-get install -y nvidia-container-toolkit nvidia-container-runtime
       sudo systemctl restart docker
 fi
