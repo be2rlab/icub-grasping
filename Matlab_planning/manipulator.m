@@ -425,10 +425,10 @@ plot3(xi,yi,zi,'.b') ;
 legend('Given points' , 'interpolated') ;
 
 
-% [pub,msg] = rospublisher('joint1', 'trajectory_msgs/JointTrajectoryPoint');
-% for rr=1:1:length(xi)
-% msg.Positions = [xi(rr) yi(rr) zi(rr)];
-% send(pub,msg);
-%  pause(0.2);
-% end
-%  rosshutdown
+[pub,msg] = rospublisher('joint1', 'trajectory_msgs/JointTrajectoryPoint');
+for rr=1:1:length(xi)
+msg.Positions = [xi(rr) yi(rr) zi(rr)];
+send(pub,msg);
+ pause(0.2);
+end
+ rosshutdown
